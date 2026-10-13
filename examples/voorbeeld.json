@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T05:00:00Z",
+  "valid_until": "2026-10-14T05:00:00Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.45,
+    "risk_level": "elevated",
+    "breadth": {"bull": 1, "bear": 0, "sideways": 1},
+    "sentiment": 0,
+    "themes": ["voorbeeld", "geen echte data"],
+    "summary_nl": "Voorbeeldbestand om het formaat te laten zien. Niet gebruiken om te handelen."
+  },
+  "assets": {
+    "BTC_USD": {"regime": "sideways", "trend_strength": 0.3, "volatility": "normal", "risk_level": "elevated", "confidence": 0.4, "tradable": true, "notes": "voorbeeld"},
+    "ETH_USD": {"regime": "bull", "trend_strength": 0.55, "volatility": "high", "risk_level": "high", "confidence": 0.6, "tradable": true, "notes": "voorbeeld"}
+  },
+  "events": [
+    {"time_utc": "2026-10-14T12:30:00Z", "title": "Voorbeeld: Amerikaanse CPI", "importance": "high", "assets": ["ALL"], "source": "https://example.com"}
+  ],
+  "chaos_windows": [
+    {"start_utc": "2026-10-14T11:30:00Z", "end_utc": "2026-10-14T14:30:00Z", "assets": ["ALL"], "reason": "Voorbeeld: CPI"}
+  ],
+  "sources": ["https://example.com"]
+}
