@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T09:19:27Z",
-  "valid_until": "2026-10-14T00:19:27Z",
+  "generated_at": "2026-10-13T17:06:17Z",
+  "valid_until": "2026-10-14T08:06:17Z",
   "status": "ok",
   "market": {
     "regime": "bull",
@@ -16,11 +16,11 @@
     "themes": [
       "long-liquidaties",
       "ETF-uitstroom",
-      "Fed-renteverhoging verwacht",
       "US CPI 14 okt",
-      "10j-rente boven 5%"
+      "chip-selloff Azië",
+      "sterke dollar/hoge rente"
     ],
-    "summary_nl": "BTC staat technisch nog net in een zwak bull-regime, maar de breadth is verdeeld (ETH, SOL en XRP bear) en de confidence is laag. In 24 uur werd circa $672 mln aan vooral longs geliquideerd en de crypto-ETF's zagen in oktober al ruim $1 mrd uitstroom. Morgen 12:30 UTC volgt de Amerikaanse CPI, met havikachtige Fed-signalen op de achtergrond."
+    "summary_nl": "BTC blijft technisch in een zwak bull-regime met lage confidence; de breadth is verdeeld (ETH, SOL en XRP bear). In 24 uur werd circa $771 mln aan vooral longs geliquideerd, crypto-ETF's zien aanhoudende uitstroom en Aziatische aandelen (KOSPI −5,5%) gingen hard onderuit. Morgen 12:30 UTC volgt de Amerikaanse CPI."
   },
   "assets": {
     "ADA_USD": {
@@ -32,12 +32,12 @@
       "tradable": true,
       "notes": "Elevated door normale volatiliteit met lage confidence.",
       "indicators": {
-        "close": 0.23579,
-        "ema10_d": 0.24459943,
-        "ema30_d": 0.23984892,
-        "ema30_slope_5d": 0.00373,
+        "close": 0.23585,
+        "ema10_d": 0.24461034,
+        "ema30_d": 0.23985279,
+        "ema30_slope_5d": 0.00375,
         "adx14_d": 20.42,
-        "atr14_pct": 0.07238,
+        "atr14_pct": 0.07237,
         "atr_ratio_vs_median": 1.18,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
@@ -53,13 +53,13 @@
       "tradable": true,
       "notes": "Elevated door normale volatiliteit met lage confidence.",
       "indicators": {
-        "close": 10.341,
-        "ema10_d": 10.57748097,
-        "ema30_d": 10.13326287,
-        "ema30_slope_5d": 0.01142,
+        "close": 10.275,
+        "ema10_d": 10.56548097,
+        "ema30_d": 10.12900481,
+        "ema30_slope_5d": 0.01099,
         "adx14_d": 29.18,
-        "atr14_pct": 0.06871,
-        "atr_ratio_vs_median": 1.13,
+        "atr14_pct": 0.06916,
+        "atr_ratio_vs_median": 1.14,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
         "candles_daily": 50
@@ -72,14 +72,14 @@
       "risk_level": "elevated",
       "confidence": 0.34,
       "tradable": true,
-      "notes": "Elevated: marktbreed risico door grote long-liquidaties, ETF-uitstroom en CPI morgen.",
+      "notes": "Elevated: marktbreed risico (long-liquidaties, ETF-uitstroom, CPI morgen).",
       "indicators": {
-        "close": 83495.91,
-        "ema10_d": 83326.81736868,
-        "ema30_d": 82723.06934375,
-        "ema30_slope_5d": 0.00081,
+        "close": 83371.23,
+        "ema10_d": 83304.14827777,
+        "ema30_d": 82715.02547279,
+        "ema30_slope_5d": 0.00072,
         "adx14_d": 24.46,
-        "atr14_pct": 0.0264,
+        "atr14_pct": 0.02644,
         "atr_ratio_vs_median": 0.94,
         "h4_trend": 0,
         "last_candle": "2026-10-13T00:00:00Z",
@@ -95,12 +95,12 @@
       "tradable": false,
       "notes": "Niet tradable: confidence onder 0,25.",
       "indicators": {
-        "close": 0.084154,
-        "ema10_d": 0.08714438,
-        "ema30_d": 0.08927048,
-        "ema30_slope_5d": -0.01979,
+        "close": 0.084512,
+        "ema10_d": 0.08720948,
+        "ema30_d": 0.08929358,
+        "ema30_slope_5d": -0.01954,
         "adx14_d": 19.41,
-        "atr14_pct": 0.05691,
+        "atr14_pct": 0.05667,
         "atr_ratio_vs_median": 1.0,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
@@ -116,12 +116,12 @@
       "tradable": true,
       "notes": "Verhoogd naar elevated: aanhoudende Ether-ETF-uitstroom (negen sessies op rij).",
       "indicators": {
-        "close": 2511.64,
-        "ema10_d": 2546.75871398,
-        "ema30_d": 2580.9535132,
-        "ema30_slope_5d": -0.01286,
+        "close": 2513.65,
+        "ema10_d": 2547.12416852,
+        "ema30_d": 2581.08319062,
+        "ema30_slope_5d": -0.01281,
         "adx14_d": 28.38,
-        "atr14_pct": 0.03612,
+        "atr14_pct": 0.03609,
         "atr_ratio_vs_median": 0.99,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
@@ -137,12 +137,12 @@
       "tradable": true,
       "notes": "Elevated door normale volatiliteit met lage confidence.",
       "indicators": {
-        "close": 12.925,
-        "ema10_d": 13.19354375,
-        "ema30_d": 13.11082013,
+        "close": 12.926,
+        "ema10_d": 13.19372557,
+        "ema30_d": 13.11088465,
         "ema30_slope_5d": -0.00536,
         "adx14_d": 23.85,
-        "atr14_pct": 0.05873,
+        "atr14_pct": 0.05872,
         "atr_ratio_vs_median": 1.03,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
@@ -156,15 +156,15 @@
       "risk_level": "elevated",
       "confidence": 0.74,
       "tradable": true,
-      "notes": "Verhoogd naar elevated: marktbreed risico (liquidaties, ETF-uitstroom, CPI morgen).",
+      "notes": "Verhoogd naar elevated: marktbreed risico (long-liquidaties, ETF-uitstroom, CPI morgen).",
       "indicators": {
-        "close": 107.32,
-        "ema10_d": 111.55324943,
-        "ema30_d": 112.18211805,
-        "ema30_slope_5d": -0.01268,
+        "close": 107.59,
+        "ema10_d": 111.60234034,
+        "ema30_d": 112.19953741,
+        "ema30_slope_5d": -0.01253,
         "adx14_d": 27.14,
-        "atr14_pct": 0.04814,
-        "atr_ratio_vs_median": 1.02,
+        "atr14_pct": 0.04802,
+        "atr_ratio_vs_median": 1.01,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
         "candles_daily": 50
@@ -177,14 +177,14 @@
       "risk_level": "elevated",
       "confidence": 0.65,
       "tradable": true,
-      "notes": "Verhoogd naar elevated: marktbreed risico (liquidaties, ETF-uitstroom, CPI morgen).",
+      "notes": "Verhoogd naar elevated: marktbreed risico (long-liquidaties, ETF-uitstroom, CPI morgen).",
       "indicators": {
-        "close": 1.3678,
-        "ema10_d": 1.40988844,
-        "ema30_d": 1.43620518,
-        "ema30_slope_5d": -0.01497,
+        "close": 1.369,
+        "ema10_d": 1.41010662,
+        "ema30_d": 1.4362826,
+        "ema30_slope_5d": -0.01491,
         "adx14_d": 22.43,
-        "atr14_pct": 0.05001,
+        "atr14_pct": 0.04997,
         "atr_ratio_vs_median": 0.91,
         "h4_trend": -1,
         "last_candle": "2026-10-13T00:00:00Z",
@@ -194,31 +194,13 @@
   },
   "events": [
     {
-      "time_utc": "2026-10-14T02:10:00Z",
-      "title": "ECB-president Lagarde spreekt",
-      "importance": "low",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
-    },
-    {
-      "time_utc": "2026-10-14T09:40:00Z",
-      "title": "Fed Vice Chair for Supervision Bowman, gesprek over toezicht en regelgeving (IIF Bangkok)",
-      "importance": "medium",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.federalreserve.gov/newsevents/2026-october.htm"
-    },
-    {
       "time_utc": "2026-10-14T12:30:00Z",
       "title": "Amerikaanse CPI september",
       "importance": "high",
       "assets": [
         "ALL"
       ],
-      "source": "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/"
+      "source": "https://features.financialjuice.com/2026/10/12/us-cpi-prep-14th-october/"
     }
   ],
   "chaos_windows": [
@@ -233,11 +215,10 @@
   ],
   "sources": [
     "https://exchange.crypto.com",
-    "https://www.kucoin.com/news/articles/crypto-daily-market-report-october-13-2026",
-    "https://www.coingabbar.com/en/crypto-news-today-october-13-2026-bitcoin-ethereum-price",
-    "https://cryptoticker.io/en/crypto-etf-outflows-october-2026-bitcoin-ethereum/",
-    "https://investinglive.com/news/week-ahead-us-inflation-and-retail-sales-lead-a-busy-economic-calendar-be-aware/",
-    "https://www.federalreserve.gov/newsevents/2026-october.htm",
-    "https://cryptotimes.io/2026/10/12/crypto-token-unlocks-reach-155m-as-cro-leads-weekly-releases"
+    "https://bitcoinfoundation.org/news/analysis/why-is-crypto-down-today-bitcoin-sell-off-deepens-as-771m-in-leveraged-bets-get-wiped-out/",
+    "https://analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-holds-near-usd-83750-as-etf-outflows-and-cpi-risk-test-support",
+    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-acb",
+    "https://features.financialjuice.com/2026/10/12/us-cpi-prep-14th-october/",
+    "https://startupfortune.com/binance-pays-283-million-after-its-own-price-feed-broke-a-stablecoin-that-never-actually-broke"
   ]
 }
