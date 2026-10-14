@@ -1,0 +1,225 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-14T16:59:20Z",
+  "valid_until": "2026-10-15T07:59:20Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.22,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 4,
+      "sideways": 4
+    },
+    "sentiment": -1,
+    "themes": [
+      "hetere US CPI (3,7%)",
+      "Fed-renteverhogingskansen omhoog",
+      "long-liquidaties",
+      "PPI/retail sales 15 okt",
+      "Warsh-toespraak vrijdag"
+    ],
+    "summary_nl": "BTC zakte na een hetere Amerikaanse CPI (3,7% j/j, core 0,3% m/m) onder $82.000 en staat technisch nu in een sideways-regime met lage confidence; ETH, SOL, XRP en LINK zitten in een bear-regime. De kans op een Fed-renteverhoging op 28 oktober steeg naar circa 41%, en er werd ruim $250 mln aan longs geliquideerd. Morgen 12:30 UTC volgen PPI, retail sales en jobless claims."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.41,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.26,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met lage confidence.",
+      "indicators": {
+        "close": 0.22987,
+        "ema10_d": 0.24190661,
+        "ema30_d": 0.23931345,
+        "ema30_slope_5d": -0.00023,
+        "adx14_d": 20.47,
+        "atr14_pct": 0.07286,
+        "atr_ratio_vs_median": 1.17,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.57,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.42,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met lage confidence.",
+      "indicators": {
+        "close": 9.946,
+        "ema10_d": 10.44496864,
+        "ema30_d": 10.11795422,
+        "ema30_slope_5d": 0.00733,
+        "adx14_d": 28.44,
+        "atr14_pct": 0.07086,
+        "atr_ratio_vs_median": 1.15,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.47,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.32,
+      "tradable": true,
+      "notes": "Elevated; marktbreed risico door hetere CPI en PPI/retail sales morgen.",
+      "indicators": {
+        "close": 81847.17,
+        "ema10_d": 83002.0317513,
+        "ema30_d": 82661.65189432,
+        "ema30_slope_5d": -0.00015,
+        "adx14_d": 23.28,
+        "atr14_pct": 0.0273,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.4,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.25,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met lage confidence.",
+      "indicators": {
+        "close": 0.082688,
+        "ema10_d": 0.08635728,
+        "ema30_d": 0.08892571,
+        "ema30_slope_5d": -0.02064,
+        "adx14_d": 19.93,
+        "atr14_pct": 0.05716,
+        "atr_ratio_vs_median": 1.01,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.56,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.76,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico (hetere CPI, hogere renteverhogingskansen, long-liquidaties).",
+      "indicators": {
+        "close": 2441.44,
+        "ema10_d": 2525.32175538,
+        "ema30_d": 2573.30172814,
+        "ema30_slope_5d": -0.01385,
+        "adx14_d": 27.77,
+        "atr14_pct": 0.03785,
+        "atr_ratio_vs_median": 1.03,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.48,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.68,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico (hetere CPI, hogere renteverhogingskansen, long-liquidaties).",
+      "indicators": {
+        "close": 12.54,
+        "ema10_d": 13.06729448,
+        "ema30_d": 13.08305389,
+        "ema30_slope_5d": -0.00689,
+        "adx14_d": 23.75,
+        "atr14_pct": 0.06074,
+        "atr_ratio_vs_median": 1.06,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.54,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.74,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico (hetere CPI, hogere renteverhogingskansen, long-liquidaties).",
+      "indicators": {
+        "close": 104.79,
+        "ema10_d": 110.23604059,
+        "ema30_d": 111.86556319,
+        "ema30_slope_5d": -0.01528,
+        "adx14_d": 26.91,
+        "atr14_pct": 0.04918,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.47,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.67,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico (hetere CPI, hogere renteverhogingskansen, long-liquidaties).",
+      "indicators": {
+        "close": 1.3327,
+        "ema10_d": 1.3954074,
+        "ema30_d": 1.42894018,
+        "ema30_slope_5d": -0.01682,
+        "adx14_d": 23.54,
+        "atr14_pct": 0.05083,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-10-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-15T12:30:00Z",
+      "title": "US PPI, retail sales (september) en wekelijkse jobless claims",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-15T11:30:00Z",
+      "end_utc": "2026-10-15T14:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "US PPI, retail sales en jobless claims (12:30 UTC)"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://cryptobriefing.com/bitcoin-falls-below-82k-as-hotter-us-inflation-fuels-fed-rate-hike-bets/",
+    "https://www.kucoin.com/news/flash/data-408m-in-crypto-futures-liquidations-in-24-hours",
+    "https://www.tftc.io/bitcoin-etf-flows/october-2026",
+    "https://dailycoin.com/us-economic-events-this-week-cpi-ppi-fed-crypto",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://marketalleys.com/post/oct-13-2026-preview-us-cpi-retail-sales-and-ppi-due-in-next-three-days-2026-10-13"
+  ]
+}
