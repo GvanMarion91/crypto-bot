@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-17T17:00:51Z",
+  "valid_until": "2026-10-18T08:00:51Z",
+  "status": "ok",
+  "market": {
+    "regime": "bear",
+    "confidence": 0.66,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 7,
+      "sideways": 1
+    },
+    "sentiment": -1,
+    "themes": [
+      "BTC van sideways naar bear",
+      "ETF-uitstroom BTC en ETH",
+      "hete US-inflatie, Fed 28 okt.",
+      "dollar op 17-maandshoogte",
+      "olie >$95 door VS-Iran"
+    ],
+    "summary_nl": "BTC is technisch van sideways naar bear gegaan; zeven van de acht coins staan nu in een bear-regime, alleen AVAX blijft sideways met lage confidence. Spot-BTC-ETF's zagen vrijdag $82 mln uitstroom en ETH-ETF's blijven uitstroom zien. Hete inflatie, een dollar op 17-maandshoogte en ~25% kans op een Fed-verhoging op 28 oktober drukken het sentiment."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.43,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.63,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico door hete inflatie, sterke dollar en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.219,
+        "ema10_d": 0.2338072,
+        "ema30_d": 0.23626814,
+        "ema30_slope_5d": -0.01458,
+        "adx14_d": 21.37,
+        "atr14_pct": 0.07182,
+        "atr_ratio_vs_median": 1.14,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.34,
+      "tradable": true,
+      "notes": "Elevated door lage confidence (sideways) en marktbreed macro-risico.",
+      "indicators": {
+        "close": 9.702,
+        "ema10_d": 10.19153836,
+        "ema30_d": 10.07534925,
+        "ema30_slope_5d": -0.00424,
+        "adx14_d": 24.28,
+        "atr14_pct": 0.07015,
+        "atr_ratio_vs_median": 1.09,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.46,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.66,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: spot-BTC-ETF's $82 mln uitstroom op 16 okt., hete inflatie en Fed-verhogingsrisico 28 okt.",
+      "indicators": {
+        "close": 81209.29,
+        "ema10_d": 82324.53218141,
+        "ema30_d": 82427.61982495,
+        "ema30_slope_5d": -0.0027,
+        "adx14_d": 22.76,
+        "atr14_pct": 0.02649,
+        "atr_ratio_vs_median": 0.96,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.44,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.64,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico door hete inflatie, sterke dollar en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.078884,
+        "ema10_d": 0.08344413,
+        "ema30_d": 0.08721556,
+        "ema30_slope_5d": -0.02648,
+        "adx14_d": 22.07,
+        "atr14_pct": 0.05681,
+        "atr_ratio_vs_median": 0.99,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.59,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.79,
+      "tradable": true,
+      "notes": "Verhoogd naar high: aanhoudende uitstroom uit ETH-ETF's en marktbreed macro-risico.",
+      "indicators": {
+        "close": 2402.4,
+        "ema10_d": 2474.66980763,
+        "ema30_d": 2542.69959971,
+        "ema30_slope_5d": -0.01678,
+        "adx14_d": 29.74,
+        "atr14_pct": 0.039,
+        "atr_ratio_vs_median": 1.03,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.48,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.68,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico door hete inflatie, sterke dollar en ETF-uitstroom.",
+      "indicators": {
+        "close": 11.847,
+        "ema10_d": 12.64839167,
+        "ema30_d": 12.90969467,
+        "ema30_slope_5d": -0.01671,
+        "adx14_d": 24.06,
+        "atr14_pct": 0.06239,
+        "atr_ratio_vs_median": 1.06,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.5,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.7,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: uitstroom uit SOL-ETF's in oktober en marktbreed macro-risico.",
+      "indicators": {
+        "close": 103.16,
+        "ema10_d": 107.41479342,
+        "ema30_d": 110.55537257,
+        "ema30_slope_5d": -0.02068,
+        "adx14_d": 24.98,
+        "atr14_pct": 0.0479,
+        "atr_ratio_vs_median": 1.07,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.47,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.67,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated: marktbreed risico door hete inflatie, sterke dollar en ETF-uitstroom.",
+      "indicators": {
+        "close": 1.289,
+        "ema10_d": 1.35556723,
+        "ema30_d": 1.40629531,
+        "ema30_slope_5d": -0.02285,
+        "adx14_d": 23.31,
+        "atr14_pct": 0.05004,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": -1,
+        "last_candle": "2026-10-17T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [],
+  "chaos_windows": [],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://cryptoticker.io/en/bitcoin-price-deutsche-bank-custody-launch/",
+    "https://www.coingabbar.com/en/crypto-news-october-17-bitcoin-eth-fell-us-inflation-fed-rates",
+    "https://crypto.news/weekly-crypto-recap-bitcoin-ledger-msci-oct-17-2026/",
+    "https://cryptobriefing.com/market-odds-25-bps-fed-hike-october/",
+    "https://decrypt.co/380640/bitcoin-ethereum-solana-etfs-red-october",
+    "https://www.coingabbar.com/en/token-unlocks-in-october-2026-7-releases-that-could-move-markets",
+    "https://www.tftc.io/us-government-bitcoin-bitfinex-seized-funds-transfer-october-2026"
+  ]
+}
