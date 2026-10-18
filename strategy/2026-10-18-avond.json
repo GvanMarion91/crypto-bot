@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-18T16:51:59Z",
+  "valid_until": "2026-10-19T07:51:59Z",
+  "status": "degraded",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 0,
+      "sideways": 8
+    },
+    "sentiment": 0,
+    "themes": [
+      "degraded: geen candles",
+      "ETF-uitstroom BTC en ETH",
+      "Fed-besluit 27-28 okt."
+    ],
+    "summary_nl": "Degraded briefing: de Crypto.com-marktdata was in deze run niet beschikbaar, dus er zijn geen regimes berekend; alle coins staan op tradable=false. Nieuws: BTC-ETF's week 12-16 okt. netto ~$228 mln uitstroom, ETH-ETF's $320 mln uitstroom; geen hacks of grote incidenten gemeld."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "ETH_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "SOL_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "LINK_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.0,
+      "tradable": false,
+      "notes": "Geen marktdata: Crypto.com-connector niet beschikbaar in deze run; placeholder, niet handelen."
+    }
+  },
+  "events": [],
+  "chaos_windows": [],
+  "sources": [
+    "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-18-2026",
+    "https://cryptoticker.io/en/ethereum-etf-outflow-blackrock-share",
+    "https://www.tokenpost.com/news/investing/34357",
+    "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---19th-23rd-october-2026"
+  ]
+}
