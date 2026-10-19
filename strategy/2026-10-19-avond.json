@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-19T17:00:34Z",
+  "valid_until": "2026-10-20T08:00:34Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.49,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": -1,
+    "themes": [
+      "ETF-uitstroom BTC/ETH",
+      "VS-inflatie 3,7% (sept)",
+      "rente-verhoging dec. ingeprijsd",
+      "lage BTC-volatiliteit",
+      "FOMC 27-28 okt"
+    ],
+    "summary_nl": "BTC beweegt zijwaarts rond $82k met historisch smalle volatiliteit, terwijl 6 van de 7 altcoins in een bear-regime zitten. Hete Amerikaanse inflatie (3,7%), oplopende kans op een renteverhoging in december en aanhoudende ETF-uitstroom drukken het sentiment; geen grote hacks bij de gevolgde coins."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.39,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.59,
+      "tradable": true,
+      "notes": "Sideways met zwakke trend; risico elevated door hete CPI (3,7%), hike-verwachting en ETF-uitstroom.",
+      "indicators": {
+        "close": 81925.02,
+        "ema10_d": 82228.91248568,
+        "ema30_d": 82394.33156396,
+        "ema30_slope_5d": -0.00284,
+        "adx14_d": 19.49,
+        "atr14_pct": 0.02554,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": 0,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.59,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.79,
+      "tradable": true,
+      "notes": "Bear; verhoogd naar elevated: ETH-ETF's ~$955 mln uitstroom in oktober en grootste long-liquidaties.",
+      "indicators": {
+        "close": 2401.27,
+        "ema10_d": 2451.07868697,
+        "ema30_d": 2525.73174615,
+        "ema30_slope_5d": -0.01742,
+        "adx14_d": 29.51,
+        "atr14_pct": 0.03935,
+        "atr_ratio_vs_median": 1.05,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.53,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.73,
+      "tradable": true,
+      "notes": "Bear; elevated door marktbreed macro-risico, Alpenglow-upgrade volgt 21 okt ~14:50 UTC.",
+      "indicators": {
+        "close": 104.3,
+        "ema10_d": 106.36352464,
+        "ema30_d": 109.68385664,
+        "ema30_slope_5d": -0.01929,
+        "adx14_d": 26.63,
+        "atr14_pct": 0.04651,
+        "atr_ratio_vs_median": 1.05,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Bear; verhoogd naar elevated na weekend-flashcrash (17 okt) en marktbreed macro-risico.",
+      "indicators": {
+        "close": 1.3012,
+        "ema10_d": 1.33872609,
+        "ema30_d": 1.39314698,
+        "ema30_slope_5d": -0.02368,
+        "adx14_d": 25.32,
+        "atr14_pct": 0.04779,
+        "atr_ratio_vs_median": 0.89,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.69,
+      "tradable": true,
+      "notes": "Bear; verhoogd naar elevated door marktbreed macro-risico en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.21774,
+        "ema10_d": 0.22902575,
+        "ema30_d": 0.23404902,
+        "ema30_slope_5d": -0.01953,
+        "adx14_d": 24.47,
+        "atr14_pct": 0.0695,
+        "atr_ratio_vs_median": 1.1,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Bear; verhoogd naar elevated door marktbreed macro-risico en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.079276,
+        "ema10_d": 0.08212475,
+        "ema30_d": 0.08617049,
+        "ema30_slope_5d": -0.02801,
+        "adx14_d": 25.58,
+        "atr14_pct": 0.05509,
+        "atr_ratio_vs_median": 0.95,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.69,
+      "tradable": true,
+      "notes": "Bear; verhoogd naar elevated door marktbreed macro-risico en ETF-uitstroom.",
+      "indicators": {
+        "close": 11.991,
+        "ema10_d": 12.45190842,
+        "ema30_d": 12.80002925,
+        "ema30_slope_5d": -0.02007,
+        "adx14_d": 24.28,
+        "atr14_pct": 0.05917,
+        "atr_ratio_vs_median": 1.0,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.34,
+      "tradable": true,
+      "notes": "Sideways met lage confidence (0,34); risico elevated.",
+      "indicators": {
+        "close": 9.618,
+        "ema10_d": 10.03089024,
+        "ema30_d": 10.02718397,
+        "ema30_slope_5d": -0.00845,
+        "adx14_d": 24.41,
+        "atr14_pct": 0.06847,
+        "atr_ratio_vs_median": 1.05,
+        "h4_trend": -1,
+        "last_candle": "2026-10-19T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-20T12:30:00Z",
+      "title": "VS woningbouwstarts en bouwvergunningen (september)",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://en.bitcoinsistemi.com/watch-out-lots-of-economic-developments-and-altcoin-events-this-week-here-s-the-day-by-day-hour-by-h-11/"
+    }
+  ],
+  "chaos_windows": [],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.cryptotimes.io/2026/10/19/bitcoin-price-holds-81k-ethereum-slips-to-2365-as-crypto-liquidations-cool-to-359m/",
+    "https://coinspectator.com/cointelegraph/2026/10/19/bitcoin-ether-etfs-shed-549m-as-october-eth-outflows-near-1b/",
+    "https://pintu.co.id/en/academy/post/crypto-market-analysis-today-october-19-2026-bitcoin-holds-above-80000-as-us-inflation-rises-to-3-7",
+    "https://www.ccn.com/news/crypto/black-monday-crypto-crash-bitcoin-ethereum-xrp-ai-perps/",
+    "https://en.bitcoinsistemi.com/watch-out-lots-of-economic-developments-and-altcoin-events-this-week-here-s-the-day-by-day-hour-by-h-11/",
+    "https://www.federalreserve.gov/newsevents/2026-october.htm",
+    "https://coinmarketcap.com/cmc-ai/solana/latest-updates/",
+    "https://solanacompass.com/news/anza-sets-alpenglow-mainnet-date-solanas-consensus-switch-is-scheduled-for-october-21-at-about-1450-utc"
+  ]
+}
