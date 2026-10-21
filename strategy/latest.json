@@ -1,217 +1,124 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-20T04:52:53Z",
-  "valid_until": "2026-10-20T19:52:53Z",
-  "status": "ok",
+  "generated_at": "2026-10-21T04:57:32Z",
+  "valid_until": "2026-10-21T19:57:32Z",
+  "status": "degraded",
   "market": {
     "regime": "sideways",
-    "confidence": 0.5,
-    "risk_level": "elevated",
+    "confidence": 0,
+    "risk_level": "high",
     "breadth": {
       "bull": 0,
-      "bear": 7,
-      "sideways": 1
+      "bear": 0,
+      "sideways": 8
     },
-    "sentiment": -1,
+    "sentiment": 0,
     "themes": [
-      "BTC-ETF-uitstroom",
-      "VS-inflatie 3,7% (sept)",
-      "renteonzekerheid voor FOMC 27-28 okt",
-      "altcoins breed in bear-regime",
-      "Solana Alpenglow 21 okt"
+      "marktdata ontbreekt",
+      "Solana Alpenglow vandaag",
+      "FOMC 28 okt"
     ],
-    "summary_nl": "BTC beweegt zijwaarts rond $82k terwijl alle zeven gevolgde altcoins nu in een bear-regime zitten (AVAX is gewisseld van sideways). Hete Amerikaanse inflatie, hoge obligatierentes en circa $910 mln BTC-ETF-uitstroom in twee weken drukken het sentiment; geen lopende hacks bij de gevolgde coins en vandaag alleen licht macronieuws."
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector was niet verbonden, dus er zijn geen candles en geen regimes berekend. Alle coins staan op niet handelbaar; vandaag activeert Solana de Alpenglow-upgrade rond 14:50 UTC, macro-agenda is rustig tot het FOMC-besluit op 28 oktober."
   },
   "assets": {
     "BTC_USD": {
       "regime": "sideways",
-      "trend_strength": 0.4,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.6,
-      "tradable": true,
-      "notes": "Sideways met zwakke trend; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 81980.62,
-        "ema10_d": 82173.40208428,
-        "ema30_d": 82321.84512677,
-        "ema30_slope_5d": -0.00264,
-        "adx14_d": 19.84,
-        "atr14_pct": 0.02461,
-        "atr_ratio_vs_median": 0.9,
-        "h4_trend": 0,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "ETH_USD": {
-      "regime": "bear",
-      "trend_strength": 0.6,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.8,
-      "tradable": true,
-      "notes": "Bear; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 2409.75,
-        "ema10_d": 2444.21226568,
-        "ema30_d": 2516.73547591,
-        "ema30_slope_5d": -0.01673,
-        "adx14_d": 29.86,
-        "atr14_pct": 0.03773,
-        "atr_ratio_vs_median": 1.0,
-        "h4_trend": -1,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "SOL_USD": {
-      "regime": "bear",
-      "trend_strength": 0.56,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.41,
-      "tradable": true,
-      "notes": "Bear met lage 4h-bevestiging; elevated, Alpenglow-upgrade 21 okt ~14:50 UTC valt na deze briefing.",
-      "indicators": {
-        "close": 105.08,
-        "ema10_d": 106.22969029,
-        "ema30_d": 109.31717413,
-        "ema30_slope_5d": -0.01754,
-        "adx14_d": 27.84,
-        "atr14_pct": 0.04405,
-        "atr_ratio_vs_median": 1.0,
-        "h4_trend": 0,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "XRP_USD": {
-      "regime": "bear",
-      "trend_strength": 0.5,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.7,
-      "tradable": true,
-      "notes": "Bear; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 1.3045,
-        "ema10_d": 1.33272481,
-        "ema30_d": 1.38650046,
-        "ema30_slope_5d": -0.02325,
-        "adx14_d": 24.96,
-        "atr14_pct": 0.0455,
-        "atr_ratio_vs_median": 0.84,
-        "h4_trend": -1,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "ADA_USD": {
-      "regime": "bear",
-      "trend_strength": 0.48,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.68,
-      "tradable": true,
-      "notes": "Bear; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 0.21823,
-        "ema10_d": 0.22710002,
-        "ema30_d": 0.23299899,
-        "ema30_slope_5d": -0.02128,
-        "adx14_d": 24.21,
-        "atr14_pct": 0.06595,
-        "atr_ratio_vs_median": 1.03,
-        "h4_trend": -1,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "DOGE_USD": {
-      "regime": "bear",
-      "trend_strength": 0.53,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.73,
-      "tradable": true,
-      "notes": "Bear; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 0.079521,
-        "ema10_d": 0.0817108,
-        "ema30_d": 0.08572341,
-        "ema30_slope_5d": -0.02703,
-        "adx14_d": 26.33,
-        "atr14_pct": 0.05236,
-        "atr_ratio_vs_median": 0.9,
-        "h4_trend": -1,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "LINK_USD": {
-      "regime": "bear",
-      "trend_strength": 0.48,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.68,
-      "tradable": true,
-      "notes": "Bear; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 12.051,
-        "ema10_d": 12.38749119,
-        "ema30_d": 12.75179573,
-        "ema30_slope_5d": -0.02042,
-        "adx14_d": 24.24,
-        "atr14_pct": 0.05656,
-        "atr_ratio_vs_median": 0.96,
-        "h4_trend": -1,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     },
     "AVAX_USD": {
-      "regime": "bear",
-      "trend_strength": 0.47,
-      "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.67,
-      "tradable": true,
-      "notes": "Wissel sideways→bear; van low naar elevated door marktbreed macro-risico (VS-inflatie 3,7%, renteonzekerheid) en BTC-ETF-uitstroom.",
-      "indicators": {
-        "close": 9.588,
-        "ema10_d": 9.94694282,
-        "ema30_d": 9.99710509,
-        "ema30_slope_5d": -0.01086,
-        "adx14_d": 23.3,
-        "atr14_pct": 0.06568,
-        "atr_ratio_vs_median": 1.0,
-        "h4_trend": -1,
-        "last_candle": "2026-10-20T00:00:00Z",
-        "candles_daily": 50
-      }
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
     }
   },
   "events": [
     {
-      "time_utc": "2026-10-20T12:30:00Z",
-      "title": "VS woningbouwstarts (september)",
-      "importance": "low",
+      "time_utc": "2026-10-21T14:50:00Z",
+      "title": "Solana Alpenglow-upgrade activeert op mainnet (ca. 14:50 UTC)",
+      "importance": "high",
       "assets": [
-        "ALL"
+        "SOL_USD"
       ],
-      "source": "https://finwire.io/news/stock-markets-news/us-economic-calendar-preview-key-releases-for-the-week-of-oct-1923-2026"
+      "source": "https://www.kucoin.com/news/flash/solana-s-alpenglow-mainnet-upgrade-activates-on-october-21"
     }
   ],
-  "chaos_windows": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-21T13:50:00Z",
+      "end_utc": "2026-10-21T16:50:00Z",
+      "assets": [
+        "SOL_USD"
+      ],
+      "reason": "Solana Alpenglow-upgrade op mainnet"
+    }
+  ],
   "sources": [
-    "https://exchange.crypto.com",
-    "https://www.analyticsinsight.net/price-analysis/crypto-prices-today-bitcoin-reclaims-usd-82500-as-china-data-lifts-risk-appetite",
-    "https://www.kucoin.com/news/flash/us-spot-bitcoin-etfs-see-910m-outflow-in-two-weeks-amid-macro-pressures",
-    "https://finwire.io/news/stock-markets-news/us-economic-calendar-preview-key-releases-for-the-week-of-oct-1923-2026",
-    "https://www.federalreserve.gov/newsevents/2026-october.htm",
-    "https://ambcrypto.com/cryptos-security-crisis-deepens-3-exploits-rattle-the-market-in-24-hours/",
-    "https://en.sedaily.com/finance/2026/10/18/crypto-exchange-gopax-apologizes-two-days-after-hack",
-    "https://www.kucoin.com/news/flash/solana-confirms-alpenglow-upgrade-on-october-21"
+    "https://www.kucoin.com/news/flash/solana-s-alpenglow-mainnet-upgrade-activates-on-october-21",
+    "https://www.financecalendar.com/events/category/central-banks-monetary-policy/day/2026-10-21/",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://alpha-maven.com/story/crypto/investigator-traces-387m-bitget-hack-funds-lin-pluang"
   ]
 }

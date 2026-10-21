@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-21T04:57:32Z",
+  "valid_until": "2026-10-21T19:57:32Z",
+  "status": "degraded",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 0,
+      "sideways": 8
+    },
+    "sentiment": 0,
+    "themes": [
+      "marktdata ontbreekt",
+      "Solana Alpenglow vandaag",
+      "FOMC 28 okt"
+    ],
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector was niet verbonden, dus er zijn geen candles en geen regimes berekend. Alle coins staan op niet handelbaar; vandaag activeert Solana de Alpenglow-upgrade rond 14:50 UTC, macro-agenda is rustig tot het FOMC-besluit op 28 oktober."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "ETH_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "SOL_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "LINK_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-21T14:50:00Z",
+      "title": "Solana Alpenglow-upgrade activeert op mainnet (ca. 14:50 UTC)",
+      "importance": "high",
+      "assets": [
+        "SOL_USD"
+      ],
+      "source": "https://www.kucoin.com/news/flash/solana-s-alpenglow-mainnet-upgrade-activates-on-october-21"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-21T13:50:00Z",
+      "end_utc": "2026-10-21T16:50:00Z",
+      "assets": [
+        "SOL_USD"
+      ],
+      "reason": "Solana Alpenglow-upgrade op mainnet"
+    }
+  ],
+  "sources": [
+    "https://www.kucoin.com/news/flash/solana-s-alpenglow-mainnet-upgrade-activates-on-october-21",
+    "https://www.financecalendar.com/events/category/central-banks-monetary-policy/day/2026-10-21/",
+    "https://fedratecalc.com/us-economic-calendar/october-2026/",
+    "https://alpha-maven.com/story/crypto/investigator-traces-387m-bitget-hack-funds-lin-pluang"
+  ]
+}
