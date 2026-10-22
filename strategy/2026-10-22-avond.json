@@ -1,0 +1,233 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-22T16:52:49Z",
+  "valid_until": "2026-10-23T07:52:49Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.07,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 7,
+      "sideways": 1
+    },
+    "sentiment": 0,
+    "themes": [
+      "BTC zijwaarts, alts bear",
+      "risk-off in tech en Azië",
+      "$431M liquidaties",
+      "BTC-ETF's >$1B instroom",
+      "Fed-blackout, FOMC 28 okt"
+    ],
+    "summary_nl": "BTC staat zijwaarts met zeer lage confidence en de zeven andere coins in een bear-regime, dus marktregime sideways. BTC zakte donderdag onder $82.000 bij zwakke techaandelen en dalende Aziatische beurzen, met $431M aan liquidaties, terwijl spot-BTC-ETF's in drie dagen ruim $1B instroom zagen. Komende 24 uur alleen middelzware macrodata; de Fed zit in de blackout tot het FOMC-besluit op 28 oktober."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.45,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.65,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off en $431M aan liquidaties.",
+      "indicators": {
+        "close": 0.20992,
+        "ema10_d": 0.22435108,
+        "ema30_d": 0.23221072,
+        "ema30_slope_5d": -0.02145,
+        "adx14_d": 22.37,
+        "atr14_pct": 0.06967,
+        "atr_ratio_vs_median": 1.1,
+        "h4_trend": -1,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.45,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.65,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off en $431M aan liquidaties.",
+      "indicators": {
+        "close": 9.07,
+        "ema10_d": 9.76162267,
+        "ema30_d": 9.9355779,
+        "ema30_slope_5d": -0.01529,
+        "adx14_d": 22.49,
+        "atr14_pct": 0.07088,
+        "atr_ratio_vs_median": 1.06,
+        "h4_trend": -1,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.32,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.17,
+      "tradable": false,
+      "notes": "Confidence 0,17 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 80960.77,
+        "ema10_d": 82350.54392307,
+        "ema30_d": 82531.42813972,
+        "ema30_slope_5d": -0.00079,
+        "adx14_d": 15.86,
+        "atr14_pct": 0.02717,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.5,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.7,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off en $431M aan liquidaties.",
+      "indicators": {
+        "close": 0.077915,
+        "ema10_d": 0.0813281,
+        "ema30_d": 0.08533789,
+        "ema30_slope_5d": -0.02363,
+        "adx14_d": 24.94,
+        "atr14_pct": 0.0541,
+        "atr_ratio_vs_median": 0.94,
+        "h4_trend": -1,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.55,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.75,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off; ETH-ETF's braken uitstroomreeks met kleine instroom.",
+      "indicators": {
+        "close": 2361.96,
+        "ema10_d": 2437.88342942,
+        "ema30_d": 2509.41322273,
+        "ema30_slope_5d": -0.01416,
+        "adx14_d": 27.74,
+        "atr14_pct": 0.04097,
+        "atr_ratio_vs_median": 1.1,
+        "h4_trend": -1,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.46,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.66,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off en $431M aan liquidaties.",
+      "indicators": {
+        "close": 11.779,
+        "ema10_d": 12.32454945,
+        "ema30_d": 12.71020646,
+        "ema30_slope_5d": -0.01771,
+        "adx14_d": 22.77,
+        "atr14_pct": 0.05992,
+        "atr_ratio_vs_median": 1.01,
+        "h4_trend": -1,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.37,
+      "tradable": true,
+      "notes": "Geen coin-specifiek risiconieuws gevonden; regime volgt uit dagcandles.",
+      "indicators": {
+        "close": 103.17,
+        "ema10_d": 105.93879947,
+        "ema30_d": 108.99254234,
+        "ema30_slope_5d": -0.01396,
+        "adx14_d": 25.9,
+        "atr14_pct": 0.0456,
+        "atr_ratio_vs_median": 1.05,
+        "h4_trend": 0,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.42,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.27,
+      "tradable": true,
+      "notes": "Geen coin-specifiek risiconieuws gevonden; regime volgt uit dagcandles.",
+      "indicators": {
+        "close": 1.3095,
+        "ema10_d": 1.33691861,
+        "ema30_d": 1.38548604,
+        "ema30_slope_5d": -0.01717,
+        "adx14_d": 21.23,
+        "atr14_pct": 0.04751,
+        "atr_ratio_vs_median": 0.9,
+        "h4_trend": 0,
+        "last_candle": "2026-10-22T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-22T23:30:00Z",
+      "title": "Japan: kern-CPI landelijk (sep)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://mitrade.com/insights/more/Central-Banks/fed-october-hold-december-hike-20261022J1428"
+    },
+    {
+      "time_utc": "2026-10-23T13:45:00Z",
+      "title": "VS: S&P Global flash PMI's diensten/industrie (okt)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.investing.com/news/stock-market-news/us-economic-calendar-preview-key-releases-for-the-week-of-oct-1923-2026-93CH-4958178"
+    },
+    {
+      "time_utc": "2026-10-23T14:00:00Z",
+      "title": "VS: Michigan 1-jaars inflatieverwachting",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.investing.com/news/stock-market-news/us-economic-calendar-preview-key-releases-for-the-week-of-oct-1923-2026-93CH-4958178"
+    }
+  ],
+  "chaos_windows": [],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.analyticsinsight.net/cryptocurrency-analytics-insight/bitcoin-price-slides-below-usd-82k-as-nasdaq-futures-retreat",
+    "https://crypto.news/bitcoin-etf-inflows-1-billion-three-days-btc-price/",
+    "https://www.investing.com/news/stock-market-news/us-economic-calendar-preview-key-releases-for-the-week-of-oct-1923-2026-93CH-4958178",
+    "https://mitrade.com/insights/more/Central-Banks/fed-october-hold-december-hike-20261022J1428",
+    "https://en.bitcoinsistemi.com/watch-out-massive-token-unlocks-coming-for-20-altcoins-this-week-here-s-the-day-by-day-hour-by-hour/"
+  ]
+}
