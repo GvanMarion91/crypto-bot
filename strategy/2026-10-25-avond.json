@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-25T18:00:30Z",
+  "valid_until": "2026-10-26T09:00:30Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.06,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": -1,
+    "themes": [
+      "BTC zakte kort onder $80K",
+      "~$820M liquidaties, vooral longs",
+      "BTC-ETF-uitstroom do/vr",
+      "Brent op hoogste niveau sinds april",
+      "FOMC-besluit 28 okt"
+    ],
+    "summary_nl": "BTC staat zijwaarts met zeer lage confidence; zes andere coins zitten in een bear-regime en XRP is naar sideways gegaan, dus marktregime sideways. Zaterdag zakte BTC kort onder $80.000 met circa $820M aan vooral long-liquidaties, na BTC-ETF-uitstroom en zorgen over hoge olieprijzen. In de komende 24 uur geen high-impact events gevonden; het FOMC-besluit volgt op 28 oktober."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.48,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.68,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off: ~$820M liquidaties (vooral longs) en BTC-ETF-uitstroom.",
+      "indicators": {
+        "close": 0.20604,
+        "ema10_d": 0.21712389,
+        "ema30_d": 0.22806645,
+        "ema30_slope_5d": -0.02747,
+        "adx14_d": 23.88,
+        "atr14_pct": 0.06685,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.46,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.66,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off: ~$820M liquidaties (vooral longs) en BTC-ETF-uitstroom.",
+      "indicators": {
+        "close": 8.942,
+        "ema10_d": 9.4161646,
+        "ema30_d": 9.78122916,
+        "ema30_slope_5d": -0.02572,
+        "adx14_d": 23.03,
+        "atr14_pct": 0.06637,
+        "atr_ratio_vs_median": 0.98,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.31,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.16,
+      "tradable": false,
+      "notes": "Confidence 0,16 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 80728.63,
+        "ema10_d": 81705.82870489,
+        "ema30_d": 82221.2099739,
+        "ema30_slope_5d": -0.00345,
+        "adx14_d": 15.66,
+        "atr14_pct": 0.0256,
+        "atr_ratio_vs_median": 0.96,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.54,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.74,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off: ~$820M liquidaties (vooral longs) en BTC-ETF-uitstroom.",
+      "indicators": {
+        "close": 0.07732,
+        "ema10_d": 0.07979716,
+        "ema30_d": 0.08413073,
+        "ema30_slope_5d": -0.0249,
+        "adx14_d": 27.07,
+        "atr14_pct": 0.0515,
+        "atr_ratio_vs_median": 0.91,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.54,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.74,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off: ~$820M liquidaties (vooral longs) en BTC-ETF-uitstroom.",
+      "indicators": {
+        "close": 2355.57,
+        "ema10_d": 2406.73413751,
+        "ema30_d": 2484.9084256,
+        "ema30_slope_5d": -0.01528,
+        "adx14_d": 27.18,
+        "atr14_pct": 0.03941,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.48,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.68,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off: ~$820M liquidaties (vooral longs) en BTC-ETF-uitstroom.",
+      "indicators": {
+        "close": 11.527,
+        "ema10_d": 12.02867986,
+        "ema30_d": 12.57581148,
+        "ema30_slope_5d": -0.02237,
+        "adx14_d": 24.0,
+        "atr14_pct": 0.05866,
+        "atr_ratio_vs_median": 1.0,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.72,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbrede risk-off: ~$820M liquidaties (vooral longs) en BTC-ETF-uitstroom.",
+      "indicators": {
+        "close": 101.76,
+        "ema10_d": 104.27963631,
+        "ema30_d": 107.88588523,
+        "ema30_slope_5d": -0.01658,
+        "adx14_d": 26.09,
+        "atr14_pct": 0.04395,
+        "atr_ratio_vs_median": 0.98,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.39,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.24,
+      "tradable": false,
+      "notes": "Confidence 0,24 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 1.3043,
+        "ema10_d": 1.319838,
+        "ema30_d": 1.36894905,
+        "ema30_slope_5d": -0.01617,
+        "adx14_d": 19.63,
+        "atr14_pct": 0.04527,
+        "atr_ratio_vs_median": 0.87,
+        "h4_trend": -1,
+        "last_candle": "2026-10-25T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [],
+  "chaos_windows": [],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.cryptotimes.io/2026/10/25/bitcoin-price-today-btc-falls-below-80000-as-820m-crypto-liquidations-hit-longs/",
+    "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-25-2026",
+    "https://www.newsquawk.com/headlines/week-in-focus-26-30th-october-2026-fomc-boc-rbnz-ecb-boj-policy-decisions-us-pce",
+    "https://en.bloomingbit.io/feed/news/122891",
+    "https://en.bitcoinsistemi.com/watch-out-massive-token-unlocks-coming-for-20-altcoins-this-week-here-s-the-day-by-day-hour-by-hour/"
+  ]
+}
