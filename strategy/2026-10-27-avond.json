@@ -1,0 +1,249 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-27T17:59:48Z",
+  "valid_until": "2026-10-28T08:59:48Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.1,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": -1,
+    "themes": [
+      "BTC rond $80K, kort onder $80K",
+      "FOMC-besluit 28 okt 18:00 UTC",
+      "Spot-BTC-ETF's wisselend, ETH-ETF-uitstroom",
+      "Liquidaties gedaald naar ~$133M/24u",
+      "Brent rond $114-117"
+    ],
+    "summary_nl": "BTC blijft zijwaarts rond $80K met zeer lage confidence; zes andere coins zitten in een bear-regime en XRP is sideways, dus marktregime sideways. De stemming is voorzichtig: ETH-ETF's zien uitstroom, olie staat hoog en de Fed besluit woensdag 28 oktober om 18:00 UTC."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.5,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.7,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: FOMC-besluit 28 okt, recente liquidaties en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.20467,
+        "ema10_d": 0.2130039,
+        "ema30_d": 0.22498707,
+        "ema30_slope_5d": -0.03145,
+        "adx14_d": 24.8,
+        "atr14_pct": 0.06266,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.46,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.66,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: FOMC-besluit 28 okt, recente liquidaties en ETF-uitstroom.",
+      "indicators": {
+        "close": 8.845,
+        "ema10_d": 9.24237745,
+        "ema30_d": 9.6732299,
+        "ema30_slope_5d": -0.02881,
+        "adx14_d": 22.86,
+        "atr14_pct": 0.06291,
+        "atr_ratio_vs_median": 0.91,
+        "h4_trend": -1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.35,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.2,
+      "tradable": false,
+      "notes": "Confidence 0,2 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 80533.7,
+        "ema10_d": 81162.05063397,
+        "ema30_d": 81877.9544418,
+        "ema30_slope_5d": -0.00673,
+        "adx14_d": 17.52,
+        "atr14_pct": 0.02482,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.55,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.4,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: FOMC-besluit 28 okt, recente liquidaties en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.078157,
+        "ema10_d": 0.07912072,
+        "ema30_d": 0.08329545,
+        "ema30_slope_5d": -0.02564,
+        "adx14_d": 27.36,
+        "atr14_pct": 0.04785,
+        "atr_ratio_vs_median": 0.84,
+        "h4_trend": 0,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.54,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.74,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: FOMC-besluit 28 okt, recente liquidaties en ETF-uitstroom.",
+      "indicators": {
+        "close": 2346.25,
+        "ema10_d": 2379.58655225,
+        "ema30_d": 2463.49083372,
+        "ema30_slope_5d": -0.01857,
+        "adx14_d": 26.98,
+        "atr14_pct": 0.03779,
+        "atr_ratio_vs_median": 0.98,
+        "h4_trend": -1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: FOMC-besluit 28 okt, recente liquidaties en ETF-uitstroom.",
+      "indicators": {
+        "close": 11.452,
+        "ema10_d": 11.81913549,
+        "ema30_d": 12.40301155,
+        "ema30_slope_5d": -0.02707,
+        "adx14_d": 25.39,
+        "atr14_pct": 0.05472,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.53,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.73,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: FOMC-besluit 28 okt, recente liquidaties en ETF-uitstroom.",
+      "indicators": {
+        "close": 100.86,
+        "ema10_d": 103.08076469,
+        "ema30_d": 106.86931104,
+        "ema30_slope_5d": -0.01944,
+        "adx14_d": 26.57,
+        "atr14_pct": 0.04181,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": -1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.37,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.22,
+      "tradable": false,
+      "notes": "Confidence 0,22 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 1.3187,
+        "ema10_d": 1.31663394,
+        "ema30_d": 1.36129894,
+        "ema30_slope_5d": -0.01656,
+        "adx14_d": 18.48,
+        "atr14_pct": 0.04296,
+        "atr_ratio_vs_median": 0.82,
+        "h4_trend": 1,
+        "last_candle": "2026-10-27T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-28T14:00:00Z",
+      "title": "Strategy-aandeelhouders stemmen over dagelijks preferent dividend",
+      "importance": "low",
+      "assets": [
+        "BTC_USD"
+      ],
+      "source": "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-27-2026"
+    },
+    {
+      "time_utc": "2026-10-28T18:00:00Z",
+      "title": "FOMC-rentebesluit (Fed)",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://fedratecalc.com/fomc-meeting-schedule/october-2026/"
+    },
+    {
+      "time_utc": "2026-10-28T18:30:00Z",
+      "title": "Persconferentie Fed-voorzitter Warsh",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://fedratecalc.com/fomc-meeting-schedule/october-2026/"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-28T17:00:00Z",
+      "end_utc": "2026-10-28T20:00:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "FOMC-rentebesluit 18:00 UTC"
+    },
+    {
+      "start_utc": "2026-10-28T17:30:00Z",
+      "end_utc": "2026-10-28T20:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Persconferentie Fed-voorzitter 18:30 UTC"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://bitcoinnewsdigest.substack.com/p/bitcoin-news-digest-october-27-2026",
+    "https://fedratecalc.com/fomc-meeting-schedule/october-2026/",
+    "https://www.analyticsinsight.net/amp/story/price-analysis/crypto-prices-today-bitcoin-trades-near-usd-80100-as-fed-meeting-approaches",
+    "https://crypto.news/an-old-coindcx-wallet-kept-receiving-deposits-then-16m-went-missing"
+  ]
+}
