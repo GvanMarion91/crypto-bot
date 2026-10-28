@@ -1,0 +1,276 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-28T18:01:51Z",
+  "valid_until": "2026-10-29T09:01:51Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.42,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": 0,
+    "themes": [
+      "FOMC-besluit nu, hold verwacht met haviks risico",
+      "BTC rond $80-81K, range $79,8K-$84K",
+      "BTC-ETF +$176M, ETH-ETF uitstroom",
+      "VS GDP/PCE do 29 okt 12:30 UTC",
+      "Brent ~$115, 10j-rente ~5%"
+    ],
+    "summary_nl": "BTC blijft zijwaarts rond $80-81K, nu met confidence 0,52; zes andere coins zitten in een bear-regime en XRP is sideways, dus marktregime sideways. Het nieuws is gemengd: BTC-ETF's zagen instroom, ETH-ETF's uitstroom, en het FOMC-besluit (18:00 UTC) en VS GDP/PCE (do 12:30 UTC) vallen in chaos-vensters."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: lopend FOMC-besluit en VS-GDP/PCE op 29 okt.",
+      "indicators": {
+        "close": 0.2027,
+        "ema10_d": 0.21129675,
+        "ema30_d": 0.22334956,
+        "ema30_slope_5d": -0.03113,
+        "adx14_d": 25.63,
+        "atr14_pct": 0.06145,
+        "atr_ratio_vs_median": 0.95,
+        "h4_trend": -1,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.46,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.66,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: lopend FOMC-besluit en VS-GDP/PCE op 29 okt.",
+      "indicators": {
+        "close": 8.852,
+        "ema10_d": 9.18730787,
+        "ema30_d": 9.6192229,
+        "ema30_slope_5d": -0.0275,
+        "adx14_d": 22.99,
+        "atr14_pct": 0.06089,
+        "atr_ratio_vs_median": 0.87,
+        "h4_trend": -1,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.32,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.52,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met beperkte trendkracht of confidence; FOMC en GDP/PCE in agenda.",
+      "indicators": {
+        "close": 80769.41,
+        "ema10_d": 81134.52639879,
+        "ema30_d": 81818.20853809,
+        "ema30_slope_5d": -0.00631,
+        "adx14_d": 16.2,
+        "atr14_pct": 0.02466,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": 0,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.37,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met beperkte trendkracht of confidence; FOMC en GDP/PCE in agenda.",
+      "indicators": {
+        "close": 0.079255,
+        "ema10_d": 0.07927186,
+        "ema30_d": 0.08294837,
+        "ema30_slope_5d": -0.02241,
+        "adx14_d": 26.17,
+        "atr14_pct": 0.04606,
+        "atr_ratio_vs_median": 0.81,
+        "h4_trend": 1,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.72,
+      "tradable": true,
+      "notes": "Risico verhoogd naar elevated door marktbreed risico: lopend FOMC-besluit en VS-GDP/PCE op 29 okt.",
+      "indicators": {
+        "close": 2344.97,
+        "ema10_d": 2373.51396129,
+        "ema30_d": 2455.31925218,
+        "ema30_slope_5d": -0.01833,
+        "adx14_d": 25.82,
+        "atr14_pct": 0.03736,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.36,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met beperkte trendkracht of confidence; FOMC en GDP/PCE in agenda.",
+      "indicators": {
+        "close": 11.541,
+        "ema10_d": 11.78608764,
+        "ema30_d": 12.32897298,
+        "ema30_slope_5d": -0.02557,
+        "adx14_d": 25.5,
+        "atr14_pct": 0.05327,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": 0,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.37,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met beperkte trendkracht of confidence; FOMC en GDP/PCE in agenda.",
+      "indicators": {
+        "close": 101.67,
+        "ema10_d": 102.88368757,
+        "ema30_d": 106.49423553,
+        "ema30_slope_5d": -0.01846,
+        "adx14_d": 26.01,
+        "atr14_pct": 0.04119,
+        "atr_ratio_vs_median": 0.91,
+        "h4_trend": 0,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.34,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.19,
+      "tradable": false,
+      "notes": "Confidence 0,19 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 1.3189,
+        "ema10_d": 1.3187187,
+        "ema30_d": 1.35843539,
+        "ema30_slope_5d": -0.01368,
+        "adx14_d": 16.9,
+        "atr14_pct": 0.04224,
+        "atr_ratio_vs_median": 0.81,
+        "h4_trend": 1,
+        "last_candle": "2026-10-28T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-28T18:00:00Z",
+      "title": "FOMC-rentebesluit (Fed), verwachting hold 3,75-4%",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
+    },
+    {
+      "time_utc": "2026-10-28T18:30:00Z",
+      "title": "Persconferentie Fed-voorzitter Warsh",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html"
+    },
+    {
+      "time_utc": "2026-10-29T12:30:00Z",
+      "title": "VS GDP Q3 (advance), PCE-inflatie september en jobless claims",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://cryptodaily.co.uk/2026/10/us-gdp-and-pce-inflation-why-october-29-could-move-markets"
+    },
+    {
+      "time_utc": "2026-10-29T13:15:00Z",
+      "title": "ECB-rentebesluit",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead"
+    },
+    {
+      "time_utc": "2026-10-29T13:45:00Z",
+      "title": "Persconferentie ECB-president Lagarde",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-28T17:00:00Z",
+      "end_utc": "2026-10-28T20:00:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "FOMC-rentebesluit 18:00 UTC"
+    },
+    {
+      "start_utc": "2026-10-28T17:30:00Z",
+      "end_utc": "2026-10-28T20:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Persconferentie Fed-voorzitter 18:30 UTC"
+    },
+    {
+      "start_utc": "2026-10-29T11:30:00Z",
+      "end_utc": "2026-10-29T14:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "VS GDP Q3 en PCE-inflatie 12:30 UTC"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-federal-reserve-october-meeting-kevin-warsh-161129201.html",
+    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-127",
+    "https://www.coindesk.com/business/2026/10/28/live-updates-bitcoin-climbs-above-usd81-000-as-majors-rally-ahead-of-fed-decision",
+    "https://www.coindesk.com/markets/2026/10/26/fed-ecb-and-boj-interest-rate-decisions-coinbase-earnings-crypto-week-ahead",
+    "https://cryptodaily.co.uk/2026/10/us-gdp-and-pce-inflation-why-october-29-could-move-markets"
+  ]
+}
