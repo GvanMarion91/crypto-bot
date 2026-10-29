@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-29T17:56:59Z",
+  "valid_until": "2026-10-30T08:56:59Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.09,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": 0,
+    "themes": [
+      "Fed hold 3,75-4%, 2 stemmen voor verhoging",
+      "PCE 3,6% j/j, GDP Q3 3,4%",
+      "~$356M liquidaties, BTC rond $80-81K",
+      "BTC-ETF instroom, ETH-ETF uitstroom",
+      "Strategy/Coinbase-cijfers, BoJ, optie-expiratie"
+    ],
+    "summary_nl": "BTC is zijwaarts met zeer lage confidence (0,19) en zes andere coins zitten in een bear-regime, dus marktregime sideways. De Fed hield de rente gelijk maar met twee stemmen voor verhoging; PCE en GDP kwamen in lijn of sterker binnen. BTC en XRP staan op niet-handelbaar door lage confidence; chaos-vensters rond het BoJ-besluit en de BTC-optie-expiratie."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.72,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "indicators": {
+        "close": 0.20242,
+        "ema10_d": 0.21015553,
+        "ema30_d": 0.22193038,
+        "ema30_slope_5d": -0.0296,
+        "adx14_d": 25.97,
+        "atr14_pct": 0.06231,
+        "atr_ratio_vs_median": 0.96,
+        "h4_trend": -1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.47,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.67,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "indicators": {
+        "close": 8.84,
+        "ema10_d": 9.14586362,
+        "ema30_d": 9.56447213,
+        "ema30_slope_5d": -0.02547,
+        "adx14_d": 23.48,
+        "atr14_pct": 0.06169,
+        "atr_ratio_vs_median": 0.87,
+        "h4_trend": -1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.34,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.19,
+      "tradable": false,
+      "notes": "Confidence 0,19 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 80653.81,
+        "ema10_d": 81121.9080437,
+        "ema30_d": 81711.75074086,
+        "ema30_slope_5d": -0.00535,
+        "adx14_d": 17.07,
+        "atr14_pct": 0.02501,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.36,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met beperkte confidence; macro-agenda en optie-expiratie.",
+      "indicators": {
+        "close": 0.07925,
+        "ema10_d": 0.07933513,
+        "ema30_d": 0.08262041,
+        "ema30_slope_5d": -0.01898,
+        "adx14_d": 25.37,
+        "atr14_pct": 0.04674,
+        "atr_ratio_vs_median": 0.82,
+        "h4_trend": 1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.5,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.7,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "indicators": {
+        "close": 2331.93,
+        "ema10_d": 2367.87654508,
+        "ema30_d": 2447.08496656,
+        "ema30_slope_5d": -0.01736,
+        "adx14_d": 25.22,
+        "atr14_pct": 0.03775,
+        "atr_ratio_vs_median": 0.99,
+        "h4_trend": -1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.34,
+      "tradable": true,
+      "notes": "Elevated door normale volatiliteit met beperkte confidence; macro-agenda en optie-expiratie.",
+      "indicators": {
+        "close": 11.691,
+        "ema10_d": 11.80790749,
+        "ema30_d": 12.29114474,
+        "ema30_slope_5d": -0.022,
+        "adx14_d": 24.73,
+        "atr14_pct": 0.05397,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": 0,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "indicators": {
+        "close": 100.74,
+        "ema10_d": 102.59495546,
+        "ema30_d": 106.06035196,
+        "ema30_slope_5d": -0.01749,
+        "adx14_d": 25.63,
+        "atr14_pct": 0.04166,
+        "atr_ratio_vs_median": 0.91,
+        "h4_trend": -1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.33,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.18,
+      "tradable": false,
+      "notes": "Confidence 0,18 onder 0,25: regime onzeker, niet handelbaar.",
+      "indicators": {
+        "close": 1.2881,
+        "ema10_d": 1.31405967,
+        "ema30_d": 1.35210723,
+        "ema30_slope_5d": -0.01244,
+        "adx14_d": 16.56,
+        "atr14_pct": 0.0426,
+        "atr_ratio_vs_median": 0.81,
+        "h4_trend": -1,
+        "last_candle": "2026-10-29T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-29T21:00:00Z",
+      "title": "Q3-cijfers en calls Strategy en Coinbase (na Amerikaanse slotbel)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb"
+    },
+    {
+      "time_utc": "2026-10-30T03:00:00Z",
+      "title": "Bank of Japan rentebesluit (verwachting hold 1,25%)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/events/2026-10-30/"
+    },
+    {
+      "time_utc": "2026-10-30T08:00:00Z",
+      "title": "Maandelijkse expiratie bitcoin-opties op Deribit",
+      "importance": "high",
+      "assets": [
+        "BTC_USD"
+      ],
+      "source": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb"
+    },
+    {
+      "time_utc": "2026-10-30T10:00:00Z",
+      "title": "Eurozone GDP-flash en werkloosheid",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/events/2026-10-30/"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-30T02:00:00Z",
+      "end_utc": "2026-10-30T05:00:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Voorzorg: BoJ-rentebesluit ~03:00 UTC"
+    },
+    {
+      "start_utc": "2026-10-30T07:00:00Z",
+      "end_utc": "2026-10-30T10:00:00Z",
+      "assets": [
+        "BTC_USD"
+      ],
+      "reason": "Deribit maandelijkse BTC-optie-expiratie 08:00 UTC"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb",
+    "https://nexo.com/blog/markets-today-october-29",
+    "https://www.financecalendar.com/events/2026-10-30/"
+  ]
+}
