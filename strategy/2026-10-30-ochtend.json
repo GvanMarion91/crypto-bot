@@ -1,0 +1,251 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-30T05:53:35Z",
+  "valid_until": "2026-10-30T20:53:35Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.12,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": -2,
+    "themes": [
+      "Binance-hack ~$6 mrd, opnames gepauzeerd",
+      "~$1,5 mrd liquidaties, vooral longs",
+      "Tether/Circle bevriezen >$2,3 mrd",
+      "Aave/Kamino pauzeren markten",
+      "Deribit optie-expiratie 08:00 UTC"
+    ],
+    "summary_nl": "BTC is zijwaarts met zeer lage confidence en zes andere coins zitten in een bear-regime, dus marktregime sideways. Binance bevestigde een security-incident van naar schatting ~$6 mrd en pauzeerde opnames; in 24 uur werd ~$1,5 mrd aan vooral longs geliquideerd. Alle coins staan op niet-handelbaar zolang het incident loopt, met chaos-vensters voor het incident en de Deribit-expiratie."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.55,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.75,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
+      "indicators": {
+        "close": 0.19382,
+        "ema10_d": 0.20534386,
+        "ema30_d": 0.21943127,
+        "ema30_slope_5d": -0.03413,
+        "adx14_d": 27.58,
+        "atr14_pct": 0.06789,
+        "atr_ratio_vs_median": 1.02,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.5,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
+      "indicators": {
+        "close": 8.583,
+        "ema10_d": 8.95858403,
+        "ema30_d": 9.46782949,
+        "ema30_slope_5d": -0.02977,
+        "adx14_d": 24.88,
+        "atr14_pct": 0.06682,
+        "atr_ratio_vs_median": 0.94,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.37,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.22,
+      "tradable": false,
+      "notes": "Confidence 0,22 onder 0,25 en lopend Binance-hack-incident: niet handelbaar.",
+      "indicators": {
+        "close": 78512.37,
+        "ema10_d": 80226.14767645,
+        "ema30_d": 81357.87889554,
+        "ema30_slope_5d": -0.00842,
+        "adx14_d": 18.71,
+        "atr14_pct": 0.02743,
+        "atr_ratio_vs_median": 1.03,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.53,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.73,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
+      "indicators": {
+        "close": 0.076192,
+        "ema10_d": 0.07814919,
+        "ema30_d": 0.08200656,
+        "ema30_slope_5d": -0.02154,
+        "adx14_d": 26.52,
+        "atr14_pct": 0.05208,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.57,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.77,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
+      "indicators": {
+        "close": 2242.99,
+        "ema10_d": 2332.91390981,
+        "ema30_d": 2431.73843727,
+        "ema30_slope_5d": -0.02093,
+        "adx14_d": 28.61,
+        "atr14_pct": 0.04059,
+        "atr_ratio_vs_median": 1.07,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.53,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.73,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
+      "indicators": {
+        "close": 11.102,
+        "ema10_d": 11.51711874,
+        "ema30_d": 12.15204674,
+        "ema30_slope_5d": -0.02785,
+        "adx14_d": 26.71,
+        "atr14_pct": 0.0629,
+        "atr_ratio_vs_median": 1.08,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.56,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.76,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
+      "indicators": {
+        "close": 98.0,
+        "ema10_d": 100.96975893,
+        "ema30_d": 105.35560069,
+        "ema30_slope_5d": -0.02183,
+        "adx14_d": 27.86,
+        "atr14_pct": 0.0472,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.36,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.21,
+      "tradable": false,
+      "notes": "Confidence 0,21 onder 0,25 en lopend Binance-hack-incident: niet handelbaar.",
+      "indicators": {
+        "close": 1.2577,
+        "ema10_d": 1.29596838,
+        "ema30_d": 1.34361803,
+        "ema30_slope_5d": -0.016,
+        "adx14_d": 17.99,
+        "atr14_pct": 0.04724,
+        "atr_ratio_vs_median": 0.91,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-10-30T08:00:00Z",
+      "title": "Maandelijkse expiratie bitcoin-opties op Deribit (~149.686 contracten)",
+      "importance": "high",
+      "assets": [
+        "BTC_USD"
+      ],
+      "source": "https://cryptoticker.io/en/bitcoin-options-expiry-october-30-2026-max-pain/"
+    },
+    {
+      "time_utc": "2026-10-30T10:00:00Z",
+      "title": "Eurozone GDP-flash en werkloosheid",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/events/2026-10-30/"
+    },
+    {
+      "time_utc": "2026-10-31T01:30:00Z",
+      "title": "China officiële PMI oktober",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/events/2026-10-30/"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-10-30T05:53:35Z",
+      "end_utc": "2026-10-30T11:53:35Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Lopend incident: Binance-hack, opnames gepauzeerd, verdere stromen/updates onvoorspelbaar"
+    },
+    {
+      "start_utc": "2026-10-30T07:00:00Z",
+      "end_utc": "2026-10-30T10:00:00Z",
+      "assets": [
+        "BTC_USD"
+      ],
+      "reason": "Deribit maandelijkse BTC-optie-expiratie 08:00 UTC"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+    "https://en.bloomingbit.io/feed/news/123249",
+    "https://bitcoinfoundation.org/news/bitcoin/bitcoin-slips-2-4-as-1-49b-in-crypto-positions-are-liquidated/",
+    "https://cryptoticker.io/en/crypto-crash-binance-hack-timeline-liquidations/",
+    "https://cryptoticker.io/en/bitcoin-options-expiry-october-30-2026-max-pain/",
+    "https://www.financecalendar.com/events/2026-10-30/"
+  ]
+}

@@ -1,210 +1,210 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-29T17:56:59Z",
-  "valid_until": "2026-10-30T08:56:59Z",
+  "generated_at": "2026-10-30T05:53:35Z",
+  "valid_until": "2026-10-30T20:53:35Z",
   "status": "ok",
   "market": {
     "regime": "sideways",
-    "confidence": 0.09,
-    "risk_level": "elevated",
+    "confidence": 0.12,
+    "risk_level": "high",
     "breadth": {
       "bull": 0,
       "bear": 6,
       "sideways": 2
     },
-    "sentiment": 0,
+    "sentiment": -2,
     "themes": [
-      "Fed hold 3,75-4%, 2 stemmen voor verhoging",
-      "PCE 3,6% j/j, GDP Q3 3,4%",
-      "~$356M liquidaties, BTC rond $80-81K",
-      "BTC-ETF instroom, ETH-ETF uitstroom",
-      "Strategy/Coinbase-cijfers, BoJ, optie-expiratie"
+      "Binance-hack ~$6 mrd, opnames gepauzeerd",
+      "~$1,5 mrd liquidaties, vooral longs",
+      "Tether/Circle bevriezen >$2,3 mrd",
+      "Aave/Kamino pauzeren markten",
+      "Deribit optie-expiratie 08:00 UTC"
     ],
-    "summary_nl": "BTC is zijwaarts met zeer lage confidence (0,19) en zes andere coins zitten in een bear-regime, dus marktregime sideways. De Fed hield de rente gelijk maar met twee stemmen voor verhoging; PCE en GDP kwamen in lijn of sterker binnen. BTC en XRP staan op niet-handelbaar door lage confidence; chaos-vensters rond het BoJ-besluit en de BTC-optie-expiratie."
+    "summary_nl": "BTC is zijwaarts met zeer lage confidence en zes andere coins zitten in een bear-regime, dus marktregime sideways. Binance bevestigde een security-incident van naar schatting ~$6 mrd en pauzeerde opnames; in 24 uur werd ~$1,5 mrd aan vooral longs geliquideerd. Alle coins staan op niet-handelbaar zolang het incident loopt, met chaos-vensters voor het incident en de Deribit-expiratie."
   },
   "assets": {
     "ADA_USD": {
       "regime": "bear",
-      "trend_strength": 0.52,
+      "trend_strength": 0.55,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.72,
-      "tradable": true,
-      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "risk_level": "high",
+      "confidence": 0.75,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
       "indicators": {
-        "close": 0.20242,
-        "ema10_d": 0.21015553,
-        "ema30_d": 0.22193038,
-        "ema30_slope_5d": -0.0296,
-        "adx14_d": 25.97,
-        "atr14_pct": 0.06231,
-        "atr_ratio_vs_median": 0.96,
+        "close": 0.19382,
+        "ema10_d": 0.20534386,
+        "ema30_d": 0.21943127,
+        "ema30_slope_5d": -0.03413,
+        "adx14_d": 27.58,
+        "atr14_pct": 0.06789,
+        "atr_ratio_vs_median": 1.02,
         "h4_trend": -1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "AVAX_USD": {
       "regime": "bear",
-      "trend_strength": 0.47,
+      "trend_strength": 0.5,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.67,
-      "tradable": true,
-      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "risk_level": "high",
+      "confidence": 0.7,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
       "indicators": {
-        "close": 8.84,
-        "ema10_d": 9.14586362,
-        "ema30_d": 9.56447213,
-        "ema30_slope_5d": -0.02547,
-        "adx14_d": 23.48,
-        "atr14_pct": 0.06169,
-        "atr_ratio_vs_median": 0.87,
+        "close": 8.583,
+        "ema10_d": 8.95858403,
+        "ema30_d": 9.46782949,
+        "ema30_slope_5d": -0.02977,
+        "adx14_d": 24.88,
+        "atr14_pct": 0.06682,
+        "atr_ratio_vs_median": 0.94,
         "h4_trend": -1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "BTC_USD": {
       "regime": "sideways",
-      "trend_strength": 0.34,
+      "trend_strength": 0.37,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.19,
+      "risk_level": "high",
+      "confidence": 0.22,
       "tradable": false,
-      "notes": "Confidence 0,19 onder 0,25: regime onzeker, niet handelbaar.",
+      "notes": "Confidence 0,22 onder 0,25 en lopend Binance-hack-incident: niet handelbaar.",
       "indicators": {
-        "close": 80653.81,
-        "ema10_d": 81121.9080437,
-        "ema30_d": 81711.75074086,
-        "ema30_slope_5d": -0.00535,
-        "adx14_d": 17.07,
-        "atr14_pct": 0.02501,
-        "atr_ratio_vs_median": 0.93,
+        "close": 78512.37,
+        "ema10_d": 80226.14767645,
+        "ema30_d": 81357.87889554,
+        "ema30_slope_5d": -0.00842,
+        "adx14_d": 18.71,
+        "atr14_pct": 0.02743,
+        "atr_ratio_vs_median": 1.03,
         "h4_trend": -1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "DOGE_USD": {
       "regime": "bear",
-      "trend_strength": 0.51,
+      "trend_strength": 0.53,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.36,
-      "tradable": true,
-      "notes": "Elevated door normale volatiliteit met beperkte confidence; macro-agenda en optie-expiratie.",
+      "risk_level": "high",
+      "confidence": 0.73,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
       "indicators": {
-        "close": 0.07925,
-        "ema10_d": 0.07933513,
-        "ema30_d": 0.08262041,
-        "ema30_slope_5d": -0.01898,
-        "adx14_d": 25.37,
-        "atr14_pct": 0.04674,
-        "atr_ratio_vs_median": 0.82,
-        "h4_trend": 1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "close": 0.076192,
+        "ema10_d": 0.07814919,
+        "ema30_d": 0.08200656,
+        "ema30_slope_5d": -0.02154,
+        "adx14_d": 26.52,
+        "atr14_pct": 0.05208,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "ETH_USD": {
       "regime": "bear",
-      "trend_strength": 0.5,
+      "trend_strength": 0.57,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.7,
-      "tradable": true,
-      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "risk_level": "high",
+      "confidence": 0.77,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
       "indicators": {
-        "close": 2331.93,
-        "ema10_d": 2367.87654508,
-        "ema30_d": 2447.08496656,
-        "ema30_slope_5d": -0.01736,
-        "adx14_d": 25.22,
-        "atr14_pct": 0.03775,
-        "atr_ratio_vs_median": 0.99,
+        "close": 2242.99,
+        "ema10_d": 2332.91390981,
+        "ema30_d": 2431.73843727,
+        "ema30_slope_5d": -0.02093,
+        "adx14_d": 28.61,
+        "atr14_pct": 0.04059,
+        "atr_ratio_vs_median": 1.07,
         "h4_trend": -1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "LINK_USD": {
       "regime": "bear",
-      "trend_strength": 0.49,
+      "trend_strength": 0.53,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.34,
-      "tradable": true,
-      "notes": "Elevated door normale volatiliteit met beperkte confidence; macro-agenda en optie-expiratie.",
+      "risk_level": "high",
+      "confidence": 0.73,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
       "indicators": {
-        "close": 11.691,
-        "ema10_d": 11.80790749,
-        "ema30_d": 12.29114474,
-        "ema30_slope_5d": -0.022,
-        "adx14_d": 24.73,
-        "atr14_pct": 0.05397,
-        "atr_ratio_vs_median": 0.92,
-        "h4_trend": 0,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "close": 11.102,
+        "ema10_d": 11.51711874,
+        "ema30_d": 12.15204674,
+        "ema30_slope_5d": -0.02785,
+        "adx14_d": 26.71,
+        "atr14_pct": 0.0629,
+        "atr_ratio_vs_median": 1.08,
+        "h4_trend": -1,
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "SOL_USD": {
       "regime": "bear",
-      "trend_strength": 0.51,
+      "trend_strength": 0.56,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.71,
-      "tradable": true,
-      "notes": "Verhoogd naar elevated door marktbreed risico: hawkish Fed-hold (decemberverhoging ~80% ingeprijsd), 10j-rente ~5% en BTC-optie-expiratie vr 08:00 UTC.",
+      "risk_level": "high",
+      "confidence": 0.76,
+      "tradable": false,
+      "notes": "Lopend incident: Binance-hack (~$6 mrd) met opnames gepauzeerd; risico high en niet handelbaar.",
       "indicators": {
-        "close": 100.74,
-        "ema10_d": 102.59495546,
-        "ema30_d": 106.06035196,
-        "ema30_slope_5d": -0.01749,
-        "adx14_d": 25.63,
-        "atr14_pct": 0.04166,
-        "atr_ratio_vs_median": 0.91,
+        "close": 98.0,
+        "ema10_d": 100.96975893,
+        "ema30_d": 105.35560069,
+        "ema30_slope_5d": -0.02183,
+        "adx14_d": 27.86,
+        "atr14_pct": 0.0472,
+        "atr_ratio_vs_median": 1.04,
         "h4_trend": -1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     },
     "XRP_USD": {
       "regime": "sideways",
-      "trend_strength": 0.33,
+      "trend_strength": 0.36,
       "volatility": "normal",
-      "risk_level": "elevated",
-      "confidence": 0.18,
+      "risk_level": "high",
+      "confidence": 0.21,
       "tradable": false,
-      "notes": "Confidence 0,18 onder 0,25: regime onzeker, niet handelbaar.",
+      "notes": "Confidence 0,21 onder 0,25 en lopend Binance-hack-incident: niet handelbaar.",
       "indicators": {
-        "close": 1.2881,
-        "ema10_d": 1.31405967,
-        "ema30_d": 1.35210723,
-        "ema30_slope_5d": -0.01244,
-        "adx14_d": 16.56,
-        "atr14_pct": 0.0426,
-        "atr_ratio_vs_median": 0.81,
+        "close": 1.2577,
+        "ema10_d": 1.29596838,
+        "ema30_d": 1.34361803,
+        "ema30_slope_5d": -0.016,
+        "adx14_d": 17.99,
+        "atr14_pct": 0.04724,
+        "atr_ratio_vs_median": 0.91,
         "h4_trend": -1,
-        "last_candle": "2026-10-29T00:00:00Z",
+        "last_candle": "2026-10-30T00:00:00Z",
         "candles_daily": 50
       }
     }
   },
   "events": [
     {
-      "time_utc": "2026-10-29T21:00:00Z",
-      "title": "Q3-cijfers en calls Strategy en Coinbase (na Amerikaanse slotbel)",
-      "importance": "medium",
+      "time_utc": "2026-10-30T08:00:00Z",
+      "title": "Maandelijkse expiratie bitcoin-opties op Deribit (~149.686 contracten)",
+      "importance": "high",
       "assets": [
-        "ALL"
+        "BTC_USD"
       ],
-      "source": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb"
+      "source": "https://cryptoticker.io/en/bitcoin-options-expiry-october-30-2026-max-pain/"
     },
     {
-      "time_utc": "2026-10-30T03:00:00Z",
-      "title": "Bank of Japan rentebesluit (verwachting hold 1,25%)",
+      "time_utc": "2026-10-30T10:00:00Z",
+      "title": "Eurozone GDP-flash en werkloosheid",
       "importance": "medium",
       "assets": [
         "ALL"
@@ -212,17 +212,8 @@
       "source": "https://www.financecalendar.com/events/2026-10-30/"
     },
     {
-      "time_utc": "2026-10-30T08:00:00Z",
-      "title": "Maandelijkse expiratie bitcoin-opties op Deribit",
-      "importance": "high",
-      "assets": [
-        "BTC_USD"
-      ],
-      "source": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb"
-    },
-    {
-      "time_utc": "2026-10-30T10:00:00Z",
-      "title": "Eurozone GDP-flash en werkloosheid",
+      "time_utc": "2026-10-31T01:30:00Z",
+      "title": "China officiële PMI oktober",
       "importance": "low",
       "assets": [
         "ALL"
@@ -232,12 +223,12 @@
   ],
   "chaos_windows": [
     {
-      "start_utc": "2026-10-30T02:00:00Z",
-      "end_utc": "2026-10-30T05:00:00Z",
+      "start_utc": "2026-10-30T05:53:35Z",
+      "end_utc": "2026-10-30T11:53:35Z",
       "assets": [
         "ALL"
       ],
-      "reason": "Voorzorg: BoJ-rentebesluit ~03:00 UTC"
+      "reason": "Lopend incident: Binance-hack, opnames gepauzeerd, verdere stromen/updates onvoorspelbaar"
     },
     {
       "start_utc": "2026-10-30T07:00:00Z",
@@ -250,8 +241,11 @@
   ],
   "sources": [
     "https://exchange.crypto.com",
-    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-bbb",
-    "https://nexo.com/blog/markets-today-october-29",
+    "https://www.coindesk.com/business/2026/10/29/potential-multi-billion-binance-hack-hitting-crypto-markets",
+    "https://en.bloomingbit.io/feed/news/123249",
+    "https://bitcoinfoundation.org/news/bitcoin/bitcoin-slips-2-4-as-1-49b-in-crypto-positions-are-liquidated/",
+    "https://cryptoticker.io/en/crypto-crash-binance-hack-timeline-liquidations/",
+    "https://cryptoticker.io/en/bitcoin-options-expiry-october-30-2026-max-pain/",
     "https://www.financecalendar.com/events/2026-10-30/"
   ]
 }
