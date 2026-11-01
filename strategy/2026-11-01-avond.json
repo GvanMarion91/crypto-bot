@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-01T17:52:31Z",
+  "valid_until": "2026-11-02T08:52:31Z",
+  "status": "degraded",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 0,
+      "sideways": 8
+    },
+    "sentiment": 0,
+    "themes": [
+      "marktdata ontbreekt",
+      "Binance-opnames gefaseerd heropend",
+      "Binance 95% gestolen activa gedekt",
+      "ISM-industrie 2 nov",
+      "VS-midterms 3 nov"
+    ],
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector was niet verbonden, dus er zijn geen candles en geen regimes berekend; alle coins staan op niet handelbaar. Binance heeft opnames sinds 1 nov gefaseerd heropend (BTC, ETH, XRP e.a.), maar meerdere netwerken zijn nog (deels) geschorst en verdere fases hebben geen tijdpad. Morgen 15:00 UTC volgt naar verwachting de ISM-industrie-index."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "ETH_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "SOL_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "LINK_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Geen marktdata deze run (Crypto.com-connector niet verbonden); regime onbekend, niet handelen."
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-02T15:00:00Z",
+      "title": "VS ISM Manufacturing PMI (datum geschat)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/event/us-ism-manufacturing-pmi-november-2026/"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-01T17:52:31Z",
+      "end_utc": "2026-11-01T23:52:31Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Lopend incident: Binance-hack, opnames deels nog geschorst, volgende fases zonder tijdpad"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.coindesk.com/markets/2026/11/01/binance-opens-crypto-withdrawals-in-phases-starting-with-bitcoin-following-usd6-3-billion-hack",
+    "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach/",
+    "https://crypto.news/crypto-prices-today-bitcoin-78k-lit-altcoin-gainers/",
+    "https://www.financecalendar.com/event/us-ism-manufacturing-pmi-november-2026/",
+    "https://www.kucoin.com/news/flash/key-global-market-events-from-nov-2-to-nov-8-2026"
+  ]
+}
