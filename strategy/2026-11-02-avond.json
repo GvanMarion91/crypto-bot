@@ -1,0 +1,232 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-02T18:04:36Z",
+  "valid_until": "2026-11-03T09:04:36Z",
+  "status": "ok",
+  "market": {
+    "regime": "bear",
+    "confidence": 0.61,
+    "risk_level": "elevated",
+    "breadth": {
+      "bull": 0,
+      "bear": 7,
+      "sideways": 1
+    },
+    "sentiment": -1,
+    "themes": [
+      "Binance-hack nasleep: miljarden uitstroom",
+      "record-uitstroom ether-ETF's oktober",
+      "VS-midterms 3 nov",
+      "JOLTS 3 nov, banenrapport 6 nov",
+      "Binance proof-of-reserves verwacht"
+    ],
+    "summary_nl": "Zeven van de acht coins staan in een dagelijkse neerwaartse trend, XRP zijwaarts met te lage confidence. Na de heropening van Binance-opnames is binnen een dag meer dan $6 mrd weggestroomd; Binance zegt ~95% van de gestolen activa te hebben aangevuld. Morgen volgen de VS-midterms en JOLTS-cijfers."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.41,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.61,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 76978.76,
+        "ema10_d": 78876.74392025,
+        "ema30_d": 80635.08104389,
+        "ema30_slope_5d": -0.01498,
+        "adx14_d": 20.64,
+        "atr14_pct": 0.02598,
+        "atr_ratio_vs_median": 0.96,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.59,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.44,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 2252.53,
+        "ema10_d": 2299.54461287,
+        "ema30_d": 2400.46116773,
+        "ema30_slope_5d": -0.0235,
+        "adx14_d": 29.27,
+        "atr14_pct": 0.03676,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": 0,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.59,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.79,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 91.87,
+        "ema10_d": 97.48139853,
+        "ema30_d": 103.17826156,
+        "ema30_slope_5d": -0.03208,
+        "adx14_d": 29.73,
+        "atr14_pct": 0.04728,
+        "atr_ratio_vs_median": 1.01,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.39,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.24,
+      "tradable": false,
+      "notes": "Confidence onder 0,25 (zwakke trend, 4h niet eens met dagregime); niet handelen.",
+      "indicators": {
+        "close": 1.241,
+        "ema10_d": 1.27319373,
+        "ema30_d": 1.32828426,
+        "ema30_slope_5d": -0.02387,
+        "adx14_d": 19.4,
+        "atr14_pct": 0.04285,
+        "atr_ratio_vs_median": 0.81,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.58,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.78,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 0.18809,
+        "ema10_d": 0.19893177,
+        "ema30_d": 0.21444452,
+        "ema30_slope_5d": -0.04036,
+        "adx14_d": 29.08,
+        "atr14_pct": 0.06275,
+        "atr_ratio_vs_median": 0.92,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.72,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 0.073947,
+        "ema10_d": 0.07663846,
+        "ema30_d": 0.08069117,
+        "ema30_slope_5d": -0.02644,
+        "adx14_d": 26.12,
+        "atr14_pct": 0.04917,
+        "atr_ratio_vs_median": 0.83,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 11.099,
+        "ema10_d": 11.46704643,
+        "ema30_d": 12.02482105,
+        "ema30_slope_5d": -0.0252,
+        "adx14_d": 25.28,
+        "atr14_pct": 0.06218,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.47,
+      "volatility": "normal",
+      "risk_level": "elevated",
+      "confidence": 0.67,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door nasleep Binance-hack en uitstroom.",
+      "indicators": {
+        "close": 8.382,
+        "ema10_d": 8.75867042,
+        "ema30_d": 9.30068904,
+        "ema30_slope_5d": -0.03339,
+        "adx14_d": 23.56,
+        "atr14_pct": 0.06541,
+        "atr_ratio_vs_median": 0.9,
+        "h4_trend": -1,
+        "last_candle": "2026-11-02T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-03T04:30:00Z",
+      "title": "Rentebesluit Reserve Bank of Australia",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead"
+    },
+    {
+      "time_utc": "2026-11-03T15:00:00Z",
+      "title": "VS JOLTS-vacatures (september)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-02T18:04:36Z",
+      "end_utc": "2026-11-03T00:04:36Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Lopend incident: nasleep Binance-hack, grote uitstroom en gefaseerde opnames; proof-of-reserves nog niet bevestigd"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.coindesk.com/markets/2026/11/02/live-updates-binance-records-usd6-billion-outflows-after-starting-withdrawals-less-then-4-of-total-holdings",
+    "https://www.coindesk.com/markets/2026/11/02/binance-hack-fallout-u-s-midterms-and-jobs-report-crypto-week-ahead",
+    "https://crypto.news/crypto-week-ahead-bitcoin-us-midterms-jobs-data-fed/",
+    "https://en.wikipedia.org/wiki/2026_Binance_hack"
+  ]
+}
