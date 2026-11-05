@@ -1,0 +1,277 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-05T17:59:41Z",
+  "valid_until": "2026-11-06T08:59:41Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.48,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 5,
+      "sideways": 3
+    },
+    "sentiment": -1,
+    "themes": [
+      "tech-/Nasdaq-uitverkoop",
+      "liquidaties >$1 mld",
+      "spot-ETF-uitstroom",
+      "Binance-hack nasleep",
+      "banenrapport VS 6 nov"
+    ],
+    "summary_nl": "BTC zakte vandaag ruim 5% naar circa $76.000 en staat nu zijwaarts; ETH, SOL, ADA, DOGE en LINK in een neerwaartse dagtrend. Een uitverkoop in tech- en chipaandelen leidde tot ruim $1 mld aan liquidaties, vooral longs; ETF-uitstroom en de nasleep van de Binance-hack drukken het sentiment. Vrijdag 13:30 UTC volgt het Amerikaanse banenrapport."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.58,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.78,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 0.18142,
+        "ema10_d": 0.1944162,
+        "ema30_d": 0.20974393,
+        "ema30_slope_5d": -0.03636,
+        "adx14_d": 28.82,
+        "atr14_pct": 0.06985,
+        "atr_ratio_vs_median": 0.99,
+        "h4_trend": -1,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.4,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.25,
+      "tradable": true,
+      "notes": "Dagtrend zijwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 8.19,
+        "ema10_d": 8.62084355,
+        "ema30_d": 9.15232546,
+        "ema30_slope_5d": -0.02781,
+        "adx14_d": 19.88,
+        "atr14_pct": 0.07159,
+        "atr_ratio_vs_median": 0.95,
+        "h4_trend": -1,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.38,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.58,
+      "tradable": true,
+      "notes": "Dagtrend zijwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 75854.34,
+        "ema10_d": 78348.81257129,
+        "ema30_d": 80061.17569072,
+        "ema30_slope_5d": -0.0115,
+        "adx14_d": 18.92,
+        "atr14_pct": 0.03261,
+        "atr_ratio_vs_median": 1.19,
+        "h4_trend": 0,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.48,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.68,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 0.071465,
+        "ema10_d": 0.07558575,
+        "ema30_d": 0.07951253,
+        "ema30_slope_5d": -0.02404,
+        "adx14_d": 23.86,
+        "atr14_pct": 0.05539,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.34,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 2251.92,
+        "ema10_d": 2305.68639163,
+        "ema30_d": 2382.88741574,
+        "ema30_slope_5d": -0.01427,
+        "adx14_d": 24.56,
+        "atr14_pct": 0.04446,
+        "atr_ratio_vs_median": 1.16,
+        "h4_trend": 0,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.42,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.62,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 10.636,
+        "ema10_d": 11.25747123,
+        "ema30_d": 11.84092663,
+        "ema30_slope_5d": -0.02422,
+        "adx14_d": 20.77,
+        "atr14_pct": 0.06862,
+        "atr_ratio_vs_median": 1.11,
+        "h4_trend": -1,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.58,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.78,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 89.16,
+        "ema10_d": 95.09884967,
+        "ema30_d": 101.20859502,
+        "ema30_slope_5d": -0.03239,
+        "adx14_d": 29.23,
+        "atr14_pct": 0.05413,
+        "atr_ratio_vs_median": 1.15,
+        "h4_trend": -1,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.31,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.51,
+      "tradable": true,
+      "notes": "Dagtrend zijwaarts; risico verhoogd door tech-uitverkoop, >$1 mld liquidaties en banenrapport VS.",
+      "indicators": {
+        "close": 1.2359,
+        "ema10_d": 1.27205706,
+        "ema30_d": 1.31433185,
+        "ema30_slope_5d": -0.01521,
+        "adx14_d": 15.61,
+        "atr14_pct": 0.0474,
+        "atr_ratio_vs_median": 0.94,
+        "h4_trend": 0,
+        "last_candle": "2026-11-05T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-06T00:00:00Z",
+      "title": "Fed-president Logan spreekt",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.techflowpost.com/en-US/newsletter/143216"
+    },
+    {
+      "time_utc": "2026-11-06T09:30:00Z",
+      "title": "Fed-president Williams in gesprek",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.techflowpost.com/en-US/newsletter/143216"
+    },
+    {
+      "time_utc": "2026-11-06T13:30:00Z",
+      "title": "VS banenrapport oktober (NFP, werkloosheid, lonen)",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://features.financialjuice.com/2026/11/02/us-nfp-prep-6th-november/"
+    },
+    {
+      "time_utc": "2026-11-06T14:10:00Z",
+      "title": "Fed-president Musalem spreekt",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.techflowpost.com/en-US/newsletter/143216"
+    },
+    {
+      "time_utc": "2026-11-06T15:00:00Z",
+      "title": "Univ. of Michigan consumentenvertrouwen en inflatieverwachting (voorlopig, nov)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.techflowpost.com/en-US/newsletter/143216"
+    },
+    {
+      "time_utc": "2026-11-06T17:15:00Z",
+      "title": "Fed-gouverneur Bowman spreekt",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.techflowpost.com/en-US/newsletter/143216"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-05T17:59:41Z",
+      "end_utc": "2026-11-05T23:59:41Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Lopende liquidatiegolf (>$1 mld, vooral longs) na tech-/Nasdaq-uitverkoop"
+    },
+    {
+      "start_utc": "2026-11-06T12:30:00Z",
+      "end_utc": "2026-11-06T15:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "VS banenrapport oktober (NFP) 13:30 UTC"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://bitcoinmagazine.com/markets/bitcoin-price-drops-below-75000-tech",
+    "https://ethnews.com/bitcoin-slides-below-76000-as-crypto-liquidations-top-1b/",
+    "https://finobird.com/news/roundup/crypto-rebounds-post-midterms-as-clarity-act-stalls-etf-outflows-persist-2026-11-05/",
+    "https://features.financialjuice.com/2026/11/02/us-nfp-prep-6th-november/",
+    "https://www.techflowpost.com/en-US/newsletter/143216"
+  ]
+}
