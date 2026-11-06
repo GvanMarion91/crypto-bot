@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-06T17:52:37Z",
+  "valid_until": "2026-11-07T08:52:37Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.13,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 5,
+      "sideways": 3
+    },
+    "sentiment": -1,
+    "themes": [
+      "spot-ETF-uitstroom",
+      "sterk banenrapport VS",
+      "Fed-renteverhoging verwacht",
+      "tech-uitverkoop na midterms",
+      "GOPAX handel stilgelegd"
+    ],
+    "summary_nl": "BTC staat zijwaarts rond $75.500 met lage confidence; ETH, SOL, ADA, DOGE en LINK in een neerwaartse dagtrend. Het VS-banenrapport (+165k vs ~65k verwacht) duwde rentes en dollar omhoog en de kans op een Fed-renteverhoging naar 78%; spot-ETF's zagen deze week ruim $1,1 mld uitstroom. GOPAX (Zuid-Korea) heeft handel en opnames stilgelegd na een hackdreiging."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.62,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.82,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 0.18646,
+        "ema10_d": 0.19287388,
+        "ema30_d": 0.20898174,
+        "ema30_slope_5d": -0.03759,
+        "adx14_d": 31.05,
+        "atr14_pct": 0.06716,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.38,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.23,
+      "tradable": false,
+      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 8.356,
+        "ema10_d": 8.56914605,
+        "ema30_d": 9.12070096,
+        "ema30_slope_5d": -0.02937,
+        "adx14_d": 19.03,
+        "atr14_pct": 0.06832,
+        "atr_ratio_vs_median": 0.9,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.38,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.23,
+      "tradable": false,
+      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 75475.64,
+        "ema10_d": 77847.27924571,
+        "ema30_d": 79935.12006568,
+        "ema30_slope_5d": -0.01365,
+        "adx14_d": 19.23,
+        "atr14_pct": 0.03204,
+        "atr_ratio_vs_median": 1.21,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.53,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.73,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 0.072613,
+        "ema10_d": 0.0749915,
+        "ema30_d": 0.07925154,
+        "ema30_slope_5d": -0.02604,
+        "adx14_d": 26.39,
+        "atr14_pct": 0.05376,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.52,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.72,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 2218.55,
+        "ema10_d": 2287.37646549,
+        "ema30_d": 2377.2057329,
+        "ema30_slope_5d": -0.01619,
+        "adx14_d": 25.82,
+        "atr14_pct": 0.04387,
+        "atr_ratio_vs_median": 1.16,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.45,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.65,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 10.847,
+        "ema10_d": 11.18689381,
+        "ema30_d": 11.80861045,
+        "ema30_slope_5d": -0.02632,
+        "adx14_d": 22.56,
+        "atr14_pct": 0.06536,
+        "atr_ratio_vs_median": 1.06,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.69,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.89,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 89.62,
+        "ema10_d": 94.11359792,
+        "ema30_d": 100.86244243,
+        "ema30_slope_5d": -0.03477,
+        "adx14_d": 34.69,
+        "atr14_pct": 0.05229,
+        "atr_ratio_vs_median": 1.14,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.33,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.18,
+      "tradable": false,
+      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, hogere Fed-renteverwachting en GOPAX-stillegging.",
+      "indicators": {
+        "close": 1.1823,
+        "ema10_d": 1.25126433,
+        "ema30_d": 1.30758495,
+        "ema30_slope_5d": -0.01991,
+        "adx14_d": 16.56,
+        "atr14_pct": 0.05083,
+        "atr_ratio_vs_median": 1.01,
+        "h4_trend": -1,
+        "last_candle": "2026-11-06T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-06T17:52:37Z",
+      "end_utc": "2026-11-06T23:52:37Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Lopend beursincident: GOPAX handel/opnames stilgelegd na hackdreiging; plus nasleep sterke banencijfers"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.theblock.co/news/markets/2026-11-06-crypto-etfs-see-over-half-a-billion-dollars-in-outflows-amid-post-midterm-market-slide-435873",
+    "https://www.fameex.com/en-US/news/crypto-news-recap-20261106",
+    "https://finance.yahoo.com/economy/policy/articles/strong-october-jobs-report-sends-134858909.html",
+    "https://crypto.news/gopax-halts-trading-withdrawals-hacking-threat",
+    "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-calendar---2nd-6th-november-2026"
+  ]
+}
