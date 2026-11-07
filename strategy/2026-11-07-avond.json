@@ -1,0 +1,215 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-07T18:05:22Z",
+  "valid_until": "2026-11-08T09:05:22Z",
+  "status": "ok",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0.11,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 6,
+      "sideways": 2
+    },
+    "sentiment": -1,
+    "themes": [
+      "spot-ETF-uitstroom",
+      "FinCEN sluit MEXC af van VS-dollar",
+      "extreme angst (F&G 25)",
+      "tech-uitverkoop",
+      "nasleep Binance-hack"
+    ],
+    "summary_nl": "BTC staat zijwaarts rond $75.750 met lage confidence; ETH, SOL, ADA, DOGE, LINK en nu ook AVAX in een neerwaartse dagtrend. Spot-BTC-ETF's blijven uitstroom zien en de Amerikaanse FinCEN heeft beurs MEXC afgesloten van het dollarsysteem; de Fear & Greed-index staat op 25 (extreme angst). Komende 24 uur geen grote macro-events; VS-CPI volgt dinsdag 10 november."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.64,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.84,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 0.18185,
+        "ema10_d": 0.19050076,
+        "ema30_d": 0.20720098,
+        "ema30_slope_5d": -0.03831,
+        "adx14_d": 31.99,
+        "atr14_pct": 0.06575,
+        "atr_ratio_vs_median": 0.95,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.41,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.61,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 8.235,
+        "ema10_d": 8.50445862,
+        "ema30_d": 9.12923438,
+        "ema30_slope_5d": -0.0314,
+        "adx14_d": 20.65,
+        "atr14_pct": 0.06529,
+        "atr_ratio_vs_median": 0.9,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.36,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.21,
+      "tradable": false,
+      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 75758.27,
+        "ema10_d": 77509.74350518,
+        "ema30_d": 79695.26207162,
+        "ema30_slope_5d": -0.01341,
+        "adx14_d": 18.22,
+        "atr14_pct": 0.03033,
+        "atr_ratio_vs_median": 1.13,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.55,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.75,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 0.071745,
+        "ema10_d": 0.07435855,
+        "ema30_d": 0.07875766,
+        "ema30_slope_5d": -0.02667,
+        "adx14_d": 27.46,
+        "atr14_pct": 0.05186,
+        "atr_ratio_vs_median": 0.91,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.48,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.68,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 2233.07,
+        "ema10_d": 2280.07864705,
+        "ema30_d": 2369.66677262,
+        "ema30_slope_5d": -0.01536,
+        "adx14_d": 24.01,
+        "atr14_pct": 0.04135,
+        "atr_ratio_vs_median": 1.09,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.45,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.65,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 10.888,
+        "ema10_d": 11.13107031,
+        "ema30_d": 11.75545364,
+        "ema30_slope_5d": -0.02616,
+        "adx14_d": 22.42,
+        "atr14_pct": 0.06211,
+        "atr_ratio_vs_median": 0.99,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.67,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.87,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 89.68,
+        "ema10_d": 93.37138371,
+        "ema30_d": 100.10815725,
+        "ema30_slope_5d": -0.03369,
+        "adx14_d": 33.59,
+        "atr14_pct": 0.04975,
+        "atr_ratio_vs_median": 1.07,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.34,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.19,
+      "tradable": false,
+      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, FinCEN-actie tegen MEXC en extreme angst.",
+      "indicators": {
+        "close": 1.1612,
+        "ema10_d": 1.23424697,
+        "ema30_d": 1.29837089,
+        "ema30_slope_5d": -0.02327,
+        "adx14_d": 16.79,
+        "atr14_pct": 0.05023,
+        "atr_ratio_vs_median": 0.99,
+        "h4_trend": -1,
+        "last_candle": "2026-11-07T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-07T18:05:22Z",
+      "end_utc": "2026-11-08T00:05:22Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Lopend beursincident: FinCEN sluit MEXC af van het VS-financiële systeem; nasleep liquidaties en ETF-uitstroom"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://cryptoticker.io/en/crypto-crash-bitcoin-ethereum-xrp-solana-week-analysis/",
+    "https://crypto.news/bitcoin-price-today-rebounds-76000-etf-outflows/",
+    "https://en.coin-turk.com/binance-hack-results-in-6-3-billion-theft-fbi-blames-north-korea/",
+    "https://www.cryptotimes.io/2026/11/07/us-treasury-blocks-mexc-from-financial-system-over-16b-in-illicit-transactions/",
+    "https://bitcoinmagazine.com/news/fincen-cuts-off-mexc-us-financial-system",
+    "https://fedratecalc.com/us-economic-calendar/november-2026/"
+  ]
+}
