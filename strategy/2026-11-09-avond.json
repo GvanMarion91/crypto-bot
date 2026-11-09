@@ -1,0 +1,224 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-09T17:59:31Z",
+  "valid_until": "2026-11-10T08:59:31Z",
+  "status": "ok",
+  "market": {
+    "regime": "bear",
+    "confidence": 0.71,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 8,
+      "sideways": 0
+    },
+    "sentiment": -1,
+    "themes": [
+      "ruim $1 mld long-liquidaties",
+      "BTC onder 50-weeks-gemiddelde",
+      "spot-ETF-uitstroom",
+      "VS-CPI dinsdag",
+      "NYSE kiest Avalanche"
+    ],
+    "summary_nl": "Alle acht coins blijven in een neerwaartse dagtrend, bevestigd door de 4h-trend; alleen AVAX heeft lage confidence na een NYSE-gedreven spike. In 24 uur werd ruim $1 mld aan longs geliquideerd en BTC sloot onder het 50-weeks-gemiddelde; spot-BTC-ETF's zagen vorige week $1,28 mld uitstroom. Dinsdag 13:30 UTC volgt de VS-CPI over oktober."
+  },
+  "assets": {
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.71,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.91,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door >$1 mld long-liquidaties, ETF-uitstroom en VS-CPI dinsdag.",
+      "indicators": {
+        "close": 0.17838,
+        "ema10_d": 0.18597787,
+        "ema30_d": 0.20400536,
+        "ema30_slope_5d": -0.04489,
+        "adx14_d": 35.39,
+        "atr14_pct": 0.06702,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.36,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts maar lage confidence; scherpe intraday-spike (+8%) op NYSE-tokenisatienieuws, plus CPI dinsdag.",
+      "indicators": {
+        "close": 8.676,
+        "ema10_d": 8.44841946,
+        "ema30_d": 9.06462511,
+        "ema30_slope_5d": -0.03341,
+        "adx14_d": 25.4,
+        "atr14_pct": 0.06669,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": 0,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door >$1 mld long-liquidaties, ETF-uitstroom en VS-CPI dinsdag.",
+      "indicators": {
+        "close": 74774.13,
+        "ema10_d": 76608.63953087,
+        "ema30_d": 79273.16828726,
+        "ema30_slope_5d": -0.01911,
+        "adx14_d": 25.44,
+        "atr14_pct": 0.03056,
+        "atr_ratio_vs_median": 1.18,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.8,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door >$1 mld long-liquidaties, ETF-uitstroom en VS-CPI dinsdag.",
+      "indicators": {
+        "close": 0.069908,
+        "ema10_d": 0.07271694,
+        "ema30_d": 0.07801575,
+        "ema30_slope_5d": -0.03586,
+        "adx14_d": 40.17,
+        "atr14_pct": 0.05313,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.59,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.79,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd: ETH had het grootste deel (~$500 mln) van de liquidaties, plus CPI dinsdag.",
+      "indicators": {
+        "close": 2124.16,
+        "ema10_d": 2229.2584788,
+        "ema30_d": 2344.42394361,
+        "ema30_slope_5d": -0.02586,
+        "adx14_d": 29.32,
+        "atr14_pct": 0.04587,
+        "atr_ratio_vs_median": 1.21,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.49,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.69,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door >$1 mld long-liquidaties, ETF-uitstroom en VS-CPI dinsdag.",
+      "indicators": {
+        "close": 10.635,
+        "ema10_d": 10.92460785,
+        "ema30_d": 11.62474123,
+        "ema30_slope_5d": -0.03163,
+        "adx14_d": 24.71,
+        "atr14_pct": 0.06365,
+        "atr_ratio_vs_median": 1.0,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.78,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door >$1 mld long-liquidaties, ETF-uitstroom en VS-CPI dinsdag.",
+      "indicators": {
+        "close": 86.55,
+        "ema10_d": 91.10996379,
+        "ema30_d": 98.69282099,
+        "ema30_slope_5d": -0.04007,
+        "adx14_d": 38.97,
+        "atr14_pct": 0.05116,
+        "atr_ratio_vs_median": 1.11,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.44,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.64,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door >$1 mld long-liquidaties, ETF-uitstroom en VS-CPI dinsdag.",
+      "indicators": {
+        "close": 1.0949,
+        "ema10_d": 1.19095495,
+        "ema30_d": 1.27857978,
+        "ema30_slope_5d": -0.03916,
+        "adx14_d": 22.17,
+        "atr14_pct": 0.0537,
+        "atr_ratio_vs_median": 1.07,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-10T13:30:00Z",
+      "title": "VS-CPI oktober (BLS)",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://thriveinmarkets.com/calendar/dates/cpi-2026/"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-10T12:30:00Z",
+      "end_utc": "2026-11-10T15:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "VS-CPI oktober om 13:30 UTC"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.theblock.co/news/markets/2026-11-09-bitcoin-loses-50-week-moving-average-as-24-hour-crypto-long-liquidations-top-1-billion-436102",
+    "https://www.coindesk.com/markets/2026/11/09/bitcoin-drops-then-pops-as-nvidia-cheating-scandal-and-failed-iran-talks-trigger-volatility",
+    "https://www.coindesk.com/business/2026/11/09/nyse-picks-avalanche-to-settle-tokenized-stocks-amid-wall-street-s-blockchain-race",
+    "https://uriel-group.com/blog/en/market-note-week-of-2026-11-09",
+    "https://thriveinmarkets.com/calendar/dates/cpi-2026/"
+  ]
+}
