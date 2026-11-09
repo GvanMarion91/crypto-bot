@@ -1,241 +1,223 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T17:52:04Z",
-  "valid_until": "2026-11-09T08:52:04Z",
+  "generated_at": "2026-11-09T05:57:54Z",
+  "valid_until": "2026-11-09T20:57:54Z",
   "status": "ok",
   "market": {
-    "regime": "sideways",
-    "confidence": 0.09,
+    "regime": "bear",
+    "confidence": 0.71,
     "risk_level": "high",
     "breadth": {
       "bull": 0,
-      "bear": 6,
-      "sideways": 2
+      "bear": 8,
+      "sideways": 0
     },
     "sentiment": -1,
     "themes": [
+      "liquidatiegolf zondagnacht",
       "spot-ETF-uitstroom",
-      "extreme angst",
-      "kans op Fed-renteverhoging december",
-      "nasleep Binance-hack",
-      "VS-CPI dinsdag"
+      "VS-CPI dinsdag",
+      "FinCEN-order tegen MEXC",
+      "angst op de markt"
     ],
-    "summary_nl": "BTC blijft zijwaarts rond $75.700 met lage confidence; ETH, SOL, ADA, DOGE, LINK en AVAX staan in een neerwaartse dagtrend. Rustig weekend zonder nieuwe incidenten, maar spot-BTC-ETF's zagen vorige week ~$1,28 mld uitstroom en de Fear & Greed-index staat op extreme angst. Maandag spreken Fed-leden Bowman, Goolsbee en Barkin; VS-CPI volgt dinsdag 10 november om 13:30 UTC."
+    "summary_nl": "Alle acht coins staan in een neerwaartse dagtrend, ook BTC, bevestigd door de 4h-trend. Zondagnacht volgde een flitsdaling (BTC kort naar $73.510, ETH −7,3% in 15 minuten) met ruim $700 mln aan long-liquidaties; spot-BTC-ETF's zagen vorige week ~$1,28 mld uitstroom. Dinsdag 10 november om 13:30 UTC volgt de Amerikaanse CPI over oktober."
   },
   "assets": {
     "ADA_USD": {
       "regime": "bear",
-      "trend_strength": 0.63,
+      "trend_strength": 0.71,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.83,
+      "confidence": 0.91,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
       "indicators": {
-        "close": 0.1786,
-        "ema10_d": 0.18830218,
-        "ema30_d": 0.20534488,
-        "ema30_slope_5d": -0.03958,
-        "adx14_d": 31.73,
-        "atr14_pct": 0.06431,
-        "atr_ratio_vs_median": 0.93,
+        "close": 0.17565,
+        "ema10_d": 0.18548187,
+        "ema30_d": 0.20382961,
+        "ema30_slope_5d": -0.04571,
+        "adx14_d": 35.69,
+        "atr14_pct": 0.06489,
+        "atr_ratio_vs_median": 0.94,
         "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
+        "last_candle": "2026-11-09T00:00:00Z",
         "candles_daily": 50
       }
     },
     "AVAX_USD": {
+      "regime": "bear",
+      "trend_strength": 0.55,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.75,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
+      "indicators": {
+        "close": 7.963,
+        "ema10_d": 8.31878309,
+        "ema30_d": 9.01862511,
+        "ema30_slope_5d": -0.03831,
+        "adx14_d": 27.37,
+        "atr14_pct": 0.06381,
+        "atr_ratio_vs_median": 0.93,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.51,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.71,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
+      "indicators": {
+        "close": 74498.51,
+        "ema10_d": 76558.51721471,
+        "ema30_d": 79255.36096564,
+        "ema30_slope_5d": -0.01933,
+        "adx14_d": 25.44,
+        "atr14_pct": 0.03012,
+        "atr_ratio_vs_median": 1.16,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.8,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
+      "indicators": {
+        "close": 0.069326,
+        "ema10_d": 0.07261112,
+        "ema30_d": 0.0779782,
+        "ema30_slope_5d": -0.03633,
+        "adx14_d": 40.17,
+        "atr14_pct": 0.05216,
+        "atr_ratio_vs_median": 0.95,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.59,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.79,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd na flitsdaling van 7% en liquidatiegolf zondagnacht, plus CPI dinsdag.",
+      "indicators": {
+        "close": 2131.01,
+        "ema10_d": 2230.51780095,
+        "ema30_d": 2344.8709964,
+        "ema30_slope_5d": -0.02568,
+        "adx14_d": 29.32,
+        "atr14_pct": 0.04456,
+        "atr_ratio_vs_median": 1.18,
+        "h4_trend": -1,
+        "last_candle": "2026-11-09T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
       "regime": "bear",
       "trend_strength": 0.49,
       "volatility": "normal",
       "risk_level": "high",
       "confidence": 0.69,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
       "indicators": {
-        "close": 8.161,
-        "ema10_d": 8.44057752,
-        "ema30_d": 9.10959702,
-        "ema30_slope_5d": -0.03366,
-        "adx14_d": 24.62,
-        "atr14_pct": 0.06213,
-        "atr_ratio_vs_median": 0.89,
+        "close": 10.479,
+        "ema10_d": 10.89624421,
+        "ema30_d": 11.61467672,
+        "ema30_slope_5d": -0.03246,
+        "adx14_d": 24.71,
+        "atr14_pct": 0.06215,
+        "atr_ratio_vs_median": 0.98,
         "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
-        "candles_daily": 50
-      }
-    },
-    "BTC_USD": {
-      "regime": "sideways",
-      "trend_strength": 0.34,
-      "volatility": "normal",
-      "risk_level": "high",
-      "confidence": 0.19,
-      "tradable": false,
-      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
-      "indicators": {
-        "close": 75715.0,
-        "ema10_d": 77185.52686016,
-        "ema30_d": 79436.62696775,
-        "ema30_slope_5d": -0.01387,
-        "adx14_d": 16.99,
-        "atr14_pct": 0.02882,
-        "atr_ratio_vs_median": 1.05,
-        "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
-        "candles_daily": 50
-      }
-    },
-    "DOGE_USD": {
-      "regime": "bear",
-      "trend_strength": 0.53,
-      "volatility": "normal",
-      "risk_level": "high",
-      "confidence": 0.73,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
-      "indicators": {
-        "close": 0.07089,
-        "ema10_d": 0.0737023,
-        "ema30_d": 0.07822583,
-        "ema30_slope_5d": -0.0285,
-        "adx14_d": 26.36,
-        "atr14_pct": 0.05074,
-        "atr_ratio_vs_median": 0.89,
-        "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
-        "candles_daily": 50
-      }
-    },
-    "ETH_USD": {
-      "regime": "bear",
-      "trend_strength": 0.43,
-      "volatility": "normal",
-      "risk_level": "high",
-      "confidence": 0.63,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
-      "indicators": {
-        "close": 2228.28,
-        "ema10_d": 2271.31816336,
-        "ema30_d": 2361.26530013,
-        "ema30_slope_5d": -0.01556,
-        "adx14_d": 21.26,
-        "atr14_pct": 0.03935,
-        "atr_ratio_vs_median": 1.02,
-        "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
-        "candles_daily": 50
-      }
-    },
-    "LINK_USD": {
-      "regime": "bear",
-      "trend_strength": 0.42,
-      "volatility": "normal",
-      "risk_level": "high",
-      "confidence": 0.62,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
-      "indicators": {
-        "close": 10.63,
-        "ema10_d": 11.03074791,
-        "ema30_d": 11.68270042,
-        "ema30_slope_5d": -0.02712,
-        "adx14_d": 20.87,
-        "atr14_pct": 0.06082,
-        "atr_ratio_vs_median": 0.96,
-        "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
+        "last_candle": "2026-11-09T00:00:00Z",
         "candles_daily": 50
       }
     },
     "SOL_USD": {
       "regime": "bear",
-      "trend_strength": 0.64,
+      "trend_strength": 0.78,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.84,
+      "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
       "indicators": {
-        "close": 88.94,
-        "ema10_d": 92.57114018,
-        "ema30_d": 99.39317646,
-        "ema30_slope_5d": -0.03409,
-        "adx14_d": 31.95,
-        "atr14_pct": 0.04789,
-        "atr_ratio_vs_median": 1.02,
+        "close": 86.89,
+        "ema10_d": 91.17259675,
+        "ema30_d": 98.71525057,
+        "ema30_slope_5d": -0.03985,
+        "adx14_d": 38.97,
+        "atr14_pct": 0.05007,
+        "atr_ratio_vs_median": 1.09,
         "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
+        "last_candle": "2026-11-09T00:00:00Z",
         "candles_daily": 50
       }
     },
     "XRP_USD": {
-      "regime": "sideways",
-      "trend_strength": 0.33,
+      "regime": "bear",
+      "trend_strength": 0.44,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.18,
-      "tradable": false,
-      "notes": "Dagtrend zijwaarts; lage confidence, niet tradable; risico verhoogd door ETF-uitstroom, extreme angst en renteverhogingskans.",
+      "confidence": 0.64,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door liquidatiegolf van zondagnacht, ETF-uitstroom en CPI dinsdag.",
       "indicators": {
-        "close": 1.154,
-        "ema10_d": 1.21990374,
-        "ema30_d": 1.28916918,
-        "ema30_slope_5d": -0.02765,
-        "adx14_d": 16.28,
-        "atr14_pct": 0.04835,
-        "atr_ratio_vs_median": 0.96,
+        "close": 1.0986,
+        "ema10_d": 1.19162095,
+        "ema30_d": 1.27880287,
+        "ema30_slope_5d": -0.03898,
+        "adx14_d": 21.97,
+        "atr14_pct": 0.05225,
+        "atr_ratio_vs_median": 1.05,
         "h4_trend": -1,
-        "last_candle": "2026-11-08T00:00:00Z",
+        "last_candle": "2026-11-09T00:00:00Z",
         "candles_daily": 50
       }
     }
   },
   "events": [
     {
-      "time_utc": "2026-11-09T13:40:00Z",
-      "title": "Fed-gouverneur Michelle Bowman spreekt",
-      "importance": "medium",
+      "time_utc": "2026-11-10T13:30:00Z",
+      "title": "VS-CPI oktober (BLS)",
+      "importance": "high",
       "assets": [
         "ALL"
       ],
-      "source": "https://www.investing.com/news/stock-market-news/fed-speakers-and-treasury-auctions-highlight-mondays-economic-calendar-93CH-5009018"
-    },
-    {
-      "time_utc": "2026-11-09T15:00:00Z",
-      "title": "Chicago Fed-president Austan Goolsbee spreekt",
-      "importance": "medium",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.investing.com/news/stock-market-news/fed-speakers-and-treasury-auctions-highlight-mondays-economic-calendar-93CH-5009018"
-    },
-    {
-      "time_utc": "2026-11-09T16:00:00Z",
-      "title": "NY Fed 1-jaars inflatieverwachtingen consumenten",
-      "importance": "low",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.investing.com/news/stock-market-news/fed-speakers-and-treasury-auctions-highlight-mondays-economic-calendar-93CH-5009018"
-    },
-    {
-      "time_utc": "2026-11-09T17:15:00Z",
-      "title": "Richmond Fed-president Thomas Barkin spreekt",
-      "importance": "medium",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.investing.com/news/stock-market-news/fed-speakers-and-treasury-auctions-highlight-mondays-economic-calendar-93CH-5009018"
+      "source": "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/"
     }
   ],
-  "chaos_windows": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-10T12:30:00Z",
+      "end_utc": "2026-11-10T15:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "VS-CPI oktober om 13:30 UTC"
+    }
+  ],
   "sources": [
     "https://exchange.crypto.com",
-    "https://crypto.news/bitcoin-price-76000-altcoin-losses-weekend-watch",
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-9-2026",
+    "https://www.tokenpost.com/news/investing/51916",
     "https://cryptoticker.io/en/crypto-news-this-week-recap-key-dates-november-2026/",
-    "https://www.investing.com/news/stock-market-news/fed-speakers-and-treasury-auctions-highlight-mondays-economic-calendar-93CH-5009018",
-    "https://en.bitcoinsistemi.com/watch-out-major-token-unlocks-are-coming-for-15-altcoins-this-week-here-s-the-day-by-day-hour-by-hou-2/"
+    "https://www.financecalendar.com/events/2026-11-09/"
   ]
 }
