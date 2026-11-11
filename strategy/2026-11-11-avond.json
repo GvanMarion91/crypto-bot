@@ -1,0 +1,235 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-11T17:52:20Z",
+  "valid_until": "2026-11-12T08:52:20Z",
+  "status": "ok",
+  "market": {
+    "regime": "bear",
+    "confidence": 0.67,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 7,
+      "sideways": 1
+    },
+    "sentiment": -1,
+    "themes": [
+      "hete VS-CPI, Fed-verhoging december ingeprijsd",
+      "4 dagen op rij BTC-ETF-uitstroom",
+      "~$724 mln liquidaties, vooral longs",
+      "BTC rond 200-daags gemiddelde",
+      "MSCI-besluit over Strategy (MSTR)"
+    ],
+    "summary_nl": "Zeven van de acht coins zitten in een neerwaartse dagtrend; AVAX staat nu op sideways met te lage confidence en is niet verhandelbaar. BTC raakte dinsdag het laagste niveau sinds 20 augustus na een hete CPI; markten prijzen een Fed-renteverhoging in december volledig in. Spot-BTC-ETF's zagen een vierde dag uitstroom en in 24 uur werd ~$724 mln geliquideerd."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.47,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.67,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts rond 200-daags gemiddelde; risico verhoogd door ETF-uitstroom, hete CPI en Fed-renteverhogingsverwachting.",
+      "indicators": {
+        "close": 74471.0,
+        "ema10_d": 75853.53888928,
+        "ema30_d": 78579.21373024,
+        "ema30_slope_5d": -0.01887,
+        "adx14_d": 23.29,
+        "atr14_pct": 0.03034,
+        "atr_ratio_vs_median": 1.18,
+        "h4_trend": -1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.55,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.75,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ETH-ETF-uitstroom, hete VS-CPI en ingeprijsde Fed-renteverhoging.",
+      "indicators": {
+        "close": 2088.32,
+        "ema10_d": 2178.23224219,
+        "ema30_d": 2307.50133902,
+        "ema30_slope_5d": -0.0308,
+        "adx14_d": 27.36,
+        "atr14_pct": 0.04628,
+        "atr_ratio_vs_median": 1.23,
+        "h4_trend": -1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.76,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "indicators": {
+        "close": 85.24,
+        "ema10_d": 88.88571903,
+        "ema30_d": 96.75937391,
+        "ema30_slope_5d": -0.04175,
+        "adx14_d": 37.99,
+        "atr14_pct": 0.05195,
+        "atr_ratio_vs_median": 1.13,
+        "h4_trend": -1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.57,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.77,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "indicators": {
+        "close": 1.0678,
+        "ema10_d": 1.14880049,
+        "ema30_d": 1.25038398,
+        "ema30_slope_5d": -0.04658,
+        "adx14_d": 28.46,
+        "atr14_pct": 0.05365,
+        "atr_ratio_vs_median": 1.15,
+        "h4_trend": -1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.71,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.56,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts (4h neutraal); risico verhoogd door marktbrede druk: hete CPI, Fed-verwachting, liquidaties.",
+      "indicators": {
+        "close": 0.17938,
+        "ema10_d": 0.18284784,
+        "ema30_d": 0.20028033,
+        "ema30_slope_5d": -0.04325,
+        "adx14_d": 35.47,
+        "atr14_pct": 0.06366,
+        "atr_ratio_vs_median": 0.94,
+        "h4_trend": 0,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.86,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "indicators": {
+        "close": 0.06904,
+        "ema10_d": 0.07135068,
+        "ema30_d": 0.07658062,
+        "ema30_slope_5d": -0.03571,
+        "adx14_d": 43.13,
+        "atr14_pct": 0.05132,
+        "atr_ratio_vs_median": 0.99,
+        "h4_trend": -1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.45,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.65,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "indicators": {
+        "close": 10.543,
+        "ema10_d": 10.75982531,
+        "ema30_d": 11.44527428,
+        "ema30_slope_5d": -0.03072,
+        "adx14_d": 22.32,
+        "atr14_pct": 0.06144,
+        "atr_ratio_vs_median": 0.96,
+        "h4_trend": -1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.38,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.23,
+      "tradable": false,
+      "notes": "Regime sideways met confidence onder 0,25 na NYSE-tokenisatiespike; niet verhandelbaar tot het beeld helderder is.",
+      "indicators": {
+        "close": 8.661,
+        "ema10_d": 8.47249513,
+        "ema30_d": 8.96111181,
+        "ema30_slope_5d": -0.02484,
+        "adx14_d": 18.91,
+        "atr14_pct": 0.06532,
+        "atr_ratio_vs_median": 0.98,
+        "h4_trend": 1,
+        "last_candle": "2026-11-11T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-11T21:00:00Z",
+      "title": "MSCI publiceert na VS-slot definitieve lijst niet-operationele bedrijven; Strategy (MSTR) kandidaat voor verwijdering",
+      "importance": "medium",
+      "assets": [
+        "BTC_USD"
+      ],
+      "source": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3"
+    },
+    {
+      "time_utc": "2026-11-12T13:30:00Z",
+      "title": "VS wekelijkse eerste werkloosheidsaanvragen",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/event/us-initial-jobless-claims-november-12-2026/"
+    },
+    {
+      "time_utc": "2026-11-12T00:00:00Z",
+      "title": "Toespraken Fed: Hammack, Barr, Goolsbee, Daly, Williams (12 nov, tijdstippen niet in bron)",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.altcoinbuzz.io/us-cpi-ppi-fed-events-crypto-market-november-2026"
+    }
+  ],
+  "chaos_windows": [],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3",
+    "https://cryptoticker.io/en/bitcoin-price-ibit-outflows-200-day-moving-average/",
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026",
+    "https://www.altcoinbuzz.io/us-cpi-ppi-fed-events-crypto-market-november-2026",
+    "https://www.financecalendar.com/event/us-initial-jobless-claims-november-12-2026/",
+    "https://tokenomist.ai/research/weekly-unlock-digest-nov-9-15-2026-alloras-first-year-cliff-2",
+    "https://theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208"
+  ]
+}
