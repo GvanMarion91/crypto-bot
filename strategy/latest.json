@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-11T17:52:20Z",
-  "valid_until": "2026-11-12T08:52:20Z",
+  "generated_at": "2026-11-12T17:52:22Z",
+  "valid_until": "2026-11-13T08:52:22Z",
   "status": "ok",
   "market": {
     "regime": "bear",
@@ -14,13 +14,13 @@
     },
     "sentiment": -1,
     "themes": [
-      "hete VS-CPI, Fed-verhoging december ingeprijsd",
-      "4 dagen op rij BTC-ETF-uitstroom",
-      "~$724 mln liquidaties, vooral longs",
-      "BTC rond 200-daags gemiddelde",
-      "MSCI-besluit over Strategy (MSTR)"
+      "BTC onder $72K, ~$656 mln liquidaties",
+      "5 dagen BTC- en ETH-ETF-uitstroom",
+      "VS-PPI vrijdag na hete CPI, Fed-verhoging gevreesd",
+      "krimpend stablecoin-aanbod",
+      "MSCI schrapt Strategy per 30 nov"
     ],
-    "summary_nl": "Zeven van de acht coins zitten in een neerwaartse dagtrend; AVAX staat nu op sideways met te lage confidence en is niet verhandelbaar. BTC raakte dinsdag het laagste niveau sinds 20 augustus na een hete CPI; markten prijzen een Fed-renteverhoging in december volledig in. Spot-BTC-ETF's zagen een vierde dag uitstroom en in 24 uur werd ~$724 mln geliquideerd."
+    "summary_nl": "Zeven van de acht coins blijven in een neerwaartse dagtrend; AVAX staat op sideways, nu met hogere confidence. BTC zakte donderdag onder $72.000 bij ruim $656 mln liquidaties (vooral longs) en een vijfde dag uitstroom uit spot-BTC- en ETH-ETF's. Vrijdag 13:30 UTC volgt de VS-PPI, met Fed-sprekers die dag."
   },
   "assets": {
     "BTC_USD": {
@@ -30,38 +30,38 @@
       "risk_level": "high",
       "confidence": 0.67,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts rond 200-daags gemiddelde; risico verhoogd door ETF-uitstroom, hete CPI en Fed-renteverhogingsverwachting.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 74471.0,
-        "ema10_d": 75853.53888928,
-        "ema30_d": 78579.21373024,
-        "ema30_slope_5d": -0.01887,
-        "adx14_d": 23.29,
-        "atr14_pct": 0.03034,
-        "atr_ratio_vs_median": 1.18,
+        "close": 71850.25,
+        "ema10_d": 75047.06215249,
+        "ema30_d": 78113.53361572,
+        "ema30_slope_5d": -0.02129,
+        "adx14_d": 23.34,
+        "atr14_pct": 0.03217,
+        "atr_ratio_vs_median": 1.25,
         "h4_trend": -1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
     "ETH_USD": {
       "regime": "bear",
-      "trend_strength": 0.55,
+      "trend_strength": 0.56,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.75,
+      "confidence": 0.76,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door ETH-ETF-uitstroom, hete VS-CPI en ingeprijsde Fed-renteverhoging.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 2088.32,
-        "ema10_d": 2178.23224219,
-        "ema30_d": 2307.50133902,
-        "ema30_slope_5d": -0.0308,
-        "adx14_d": 27.36,
-        "atr14_pct": 0.04628,
-        "atr_ratio_vs_median": 1.23,
+        "close": 2016.16,
+        "ema10_d": 2143.69187506,
+        "ema30_d": 2286.75537938,
+        "ema30_slope_5d": -0.03582,
+        "adx14_d": 28.25,
+        "atr14_pct": 0.04771,
+        "atr_ratio_vs_median": 1.27,
         "h4_trend": -1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
@@ -72,17 +72,17 @@
       "risk_level": "high",
       "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 85.24,
-        "ema10_d": 88.88571903,
-        "ema30_d": 96.75937391,
-        "ema30_slope_5d": -0.04175,
-        "adx14_d": 37.99,
-        "atr14_pct": 0.05195,
-        "atr_ratio_vs_median": 1.13,
+        "close": 81.62,
+        "ema10_d": 87.26278442,
+        "ema30_d": 95.7320944,
+        "ema30_slope_5d": -0.04601,
+        "adx14_d": 38.08,
+        "atr14_pct": 0.0534,
+        "atr_ratio_vs_median": 1.15,
         "h4_trend": -1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
@@ -93,143 +93,132 @@
       "risk_level": "high",
       "confidence": 0.77,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 1.0678,
-        "ema10_d": 1.14880049,
-        "ema30_d": 1.25038398,
-        "ema30_slope_5d": -0.04658,
-        "adx14_d": 28.46,
-        "atr14_pct": 0.05365,
-        "atr_ratio_vs_median": 1.15,
+        "close": 1.0272,
+        "ema10_d": 1.12426797,
+        "ema30_d": 1.23618417,
+        "ema30_slope_5d": -0.05167,
+        "adx14_d": 28.42,
+        "atr14_pct": 0.05514,
+        "atr_ratio_vs_median": 1.2,
         "h4_trend": -1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
     "ADA_USD": {
       "regime": "bear",
-      "trend_strength": 0.71,
+      "trend_strength": 0.7,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.56,
+      "confidence": 0.9,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts (4h neutraal); risico verhoogd door marktbrede druk: hete CPI, Fed-verwachting, liquidaties.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 0.17938,
-        "ema10_d": 0.18284784,
-        "ema30_d": 0.20028033,
-        "ema30_slope_5d": -0.04325,
-        "adx14_d": 35.47,
-        "atr14_pct": 0.06366,
-        "atr_ratio_vs_median": 0.94,
-        "h4_trend": 0,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "close": 0.17168,
+        "ema10_d": 0.18006932,
+        "ema30_d": 0.19846434,
+        "ema30_slope_5d": -0.04593,
+        "adx14_d": 35.18,
+        "atr14_pct": 0.06564,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
     "DOGE_USD": {
       "regime": "bear",
-      "trend_strength": 0.86,
+      "trend_strength": 0.88,
       "volatility": "normal",
       "risk_level": "high",
       "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 0.06904,
-        "ema10_d": 0.07135068,
-        "ema30_d": 0.07658062,
-        "ema30_slope_5d": -0.03571,
-        "adx14_d": 43.13,
-        "atr14_pct": 0.05132,
-        "atr_ratio_vs_median": 0.99,
+        "close": 0.065969,
+        "ema10_d": 0.07013788,
+        "ema30_d": 0.07590948,
+        "ema30_slope_5d": -0.03988,
+        "adx14_d": 44.14,
+        "atr14_pct": 0.05441,
+        "atr_ratio_vs_median": 1.06,
         "h4_trend": -1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
     "LINK_USD": {
       "regime": "bear",
-      "trend_strength": 0.45,
+      "trend_strength": 0.5,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.65,
+      "confidence": 0.7,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd door hete VS-CPI, ingeprijsde Fed-renteverhoging, ETF-uitstroom en ~$724 mln liquidaties.",
+      "notes": "Dagtrend neerwaarts; risico verhoogd door ~$656 mln liquidaties (vooral longs), vijf dagen ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 10.543,
-        "ema10_d": 10.75982531,
-        "ema30_d": 11.44527428,
-        "ema30_slope_5d": -0.03072,
-        "adx14_d": 22.32,
-        "atr14_pct": 0.06144,
-        "atr_ratio_vs_median": 0.96,
+        "close": 10.01,
+        "ema10_d": 10.56982854,
+        "ema30_d": 11.36138746,
+        "ema30_slope_5d": -0.03613,
+        "adx14_d": 25.04,
+        "atr14_pct": 0.06461,
+        "atr_ratio_vs_median": 1.03,
         "h4_trend": -1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     },
     "AVAX_USD": {
       "regime": "sideways",
-      "trend_strength": 0.38,
+      "trend_strength": 0.34,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.23,
-      "tradable": false,
-      "notes": "Regime sideways met confidence onder 0,25 na NYSE-tokenisatiespike; niet verhandelbaar tot het beeld helderder is.",
+      "confidence": 0.54,
+      "tradable": true,
+      "notes": "Regime sideways met matige confidence; risico verhoogd door marktbrede liquidaties, ETF-uitstroom en PPI vrijdag.",
       "indicators": {
-        "close": 8.661,
-        "ema10_d": 8.47249513,
-        "ema30_d": 8.96111181,
-        "ema30_slope_5d": -0.02484,
-        "adx14_d": 18.91,
-        "atr14_pct": 0.06532,
-        "atr_ratio_vs_median": 0.98,
-        "h4_trend": 1,
-        "last_candle": "2026-11-11T00:00:00Z",
+        "close": 8.341,
+        "ema10_d": 8.42626927,
+        "ema30_d": 8.90912987,
+        "ema30_slope_5d": -0.02345,
+        "adx14_d": 16.78,
+        "atr14_pct": 0.06697,
+        "atr_ratio_vs_median": 1.0,
+        "h4_trend": 0,
+        "last_candle": "2026-11-12T00:00:00Z",
         "candles_daily": 50
       }
     }
   },
   "events": [
     {
-      "time_utc": "2026-11-11T21:00:00Z",
-      "title": "MSCI publiceert na VS-slot definitieve lijst niet-operationele bedrijven; Strategy (MSTR) kandidaat voor verwijdering",
-      "importance": "medium",
-      "assets": [
-        "BTC_USD"
-      ],
-      "source": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3"
-    },
-    {
-      "time_utc": "2026-11-12T13:30:00Z",
-      "title": "VS wekelijkse eerste werkloosheidsaanvragen",
-      "importance": "medium",
+      "time_utc": "2026-11-13T13:30:00Z",
+      "title": "VS producentenprijzen (PPI) oktober",
+      "importance": "high",
       "assets": [
         "ALL"
       ],
-      "source": "https://www.financecalendar.com/event/us-initial-jobless-claims-november-12-2026/"
-    },
-    {
-      "time_utc": "2026-11-12T00:00:00Z",
-      "title": "Toespraken Fed: Hammack, Barr, Goolsbee, Daly, Williams (12 nov, tijdstippen niet in bron)",
-      "importance": "medium",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.altcoinbuzz.io/us-cpi-ppi-fed-events-crypto-market-november-2026"
+      "source": "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november"
     }
   ],
-  "chaos_windows": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-13T12:30:00Z",
+      "end_utc": "2026-11-13T15:30:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "VS-PPI oktober (13:30 UTC), na hete CPI en Fed-verhogingsverwachting"
+    }
+  ],
   "sources": [
     "https://exchange.crypto.com",
-    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-fd3",
-    "https://cryptoticker.io/en/bitcoin-price-ibit-outflows-200-day-moving-average/",
-    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-11-2026",
-    "https://www.altcoinbuzz.io/us-cpi-ppi-fed-events-crypto-market-november-2026",
-    "https://www.financecalendar.com/event/us-initial-jobless-claims-november-12-2026/",
-    "https://tokenomist.ai/research/weekly-unlock-digest-nov-9-15-2026-alloras-first-year-cliff-2",
-    "https://theblock.co/news/business/2026-11-09-nyse-settle-tokenized-stocks-avalanche-planned-24-7-market-436208"
+    "https://thecryptodesk.substack.com/p/the-crypto-desk-thursday-12-november",
+    "https://news.bitcoin.com/market-updates/bitcoin-price-breaks-below-72k-656m-liquidation-bloodbath/",
+    "https://bravenewcoin.com/insights/crypto-news-today-bitcoin-loses-72k-as-550b-vanishes-from-cryptocurrency-market",
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-12-2026",
+    "https://newsquawk.com/headlines/newsquawk-daily-economic-release---13th-november-2026"
   ]
 }
