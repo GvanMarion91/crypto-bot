@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-13T17:53:58Z",
+  "valid_until": "2026-11-14T08:53:58Z",
+  "status": "ok",
+  "market": {
+    "regime": "bear",
+    "confidence": 0.73,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 7,
+      "sideways": 1
+    },
+    "sentiment": -2,
+    "themes": [
+      "BTC onder $70K, $1,2–1,6 mld liquidaties",
+      "Fear & Greed 20 (extreme angst)",
+      "aanhoudende BTC- en ETH-ETF-uitstroom",
+      "PPI okt +0,3% m/m, 6,5% j/j; Fed-verhoging gevreesd",
+      "Iran-claim aanval VS-radar Bahrein"
+    ],
+    "summary_nl": "Zeven van de acht coins blijven in een neerwaartse dagtrend; BTC en ETH nu met hoge volatiliteit, AVAX sideways met te lage confidence om te handelen. BTC zakte vrijdag onder $68.000 bij $1,2–1,6 mld liquidaties, extreme angst en verdere ETF-uitstroom. De PPI kwam iets onder verwachting uit, maar de jaarstijging (6,5%) houdt de vrees voor een Fed-verhoging in december levend."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.53,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.73,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 68986.09,
+        "ema10_d": 73876.90288072,
+        "ema30_d": 77486.65699241,
+        "ema30_slope_5d": -0.025,
+        "adx14_d": 26.31,
+        "atr14_pct": 0.03528,
+        "atr_ratio_vs_median": 1.36,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.64,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.84,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 1943.05,
+        "ema10_d": 2107.47227307,
+        "ema30_d": 2264.84627994,
+        "ema30_slope_5d": -0.03871,
+        "adx14_d": 32.16,
+        "atr14_pct": 0.05059,
+        "atr_ratio_vs_median": 1.34,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.91,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 80.18,
+        "ema10_d": 85.97671826,
+        "ema30_d": 94.91211865,
+        "ema30_slope_5d": -0.04811,
+        "adx14_d": 45.66,
+        "atr14_pct": 0.05433,
+        "atr_ratio_vs_median": 1.18,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.75,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 1.0219,
+        "ema10_d": 1.10763473,
+        "ema30_d": 1.22437331,
+        "ema30_slope_5d": -0.05299,
+        "adx14_d": 37.53,
+        "atr14_pct": 0.05444,
+        "atr_ratio_vs_median": 1.21,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.77,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.17154,
+        "ema10_d": 0.17889985,
+        "ema30_d": 0.19727586,
+        "ema30_slope_5d": -0.04441,
+        "adx14_d": 38.4,
+        "atr14_pct": 0.06512,
+        "atr_ratio_vs_median": 0.96,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 0.98,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.065407,
+        "ema10_d": 0.06934629,
+        "ema30_d": 0.07537368,
+        "ema30_slope_5d": -0.04063,
+        "adx14_d": 48.78,
+        "atr14_pct": 0.05496,
+        "atr_ratio_vs_median": 1.07,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.62,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.82,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 9.956,
+        "ema10_d": 10.47670089,
+        "ema30_d": 11.3035697,
+        "ema30_slope_5d": -0.03661,
+        "adx14_d": 31.07,
+        "atr14_pct": 0.06473,
+        "atr_ratio_vs_median": 1.04,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.33,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.18,
+      "tradable": false,
+      "notes": "Sideways met zeer lage confidence (0,18); niet handelbaar, risico verhoogd door marktbrede liquidaties ($1,2–1,6 mld, vooral longs), extreme angst en ETF-uitstroom.",
+      "indicators": {
+        "close": 8.359,
+        "ema10_d": 8.41584364,
+        "ema30_d": 8.89060912,
+        "ema30_slope_5d": -0.01962,
+        "adx14_d": 16.59,
+        "atr14_pct": 0.06746,
+        "atr_ratio_vs_median": 1.01,
+        "h4_trend": -1,
+        "last_candle": "2026-11-13T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-13T17:53:58Z",
+      "end_utc": "2026-11-13T23:53:58Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Voorzorg: lopende liquidatiegolf, dunne weekendliquiditeit en onbevestigde Iran-claim op VS-radar in Bahrein"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://cryptoticker.io/en/crypto-news-bitcoin-crash-liquidations-etf-outflows-november-13-2026/",
+    "https://tedpillows.substack.com/p/crypto-and-finance-market-report-c04",
+    "https://coincentral.com/why-is-crypto-dropping-today-november-13-2026",
+    "https://crypto.news/why-is-crypto-market-crashing-bitcoin-ethereum-xrp/",
+    "https://www.stocktitan.net/articles/october-2026-ppi-report"
+  ]
+}
