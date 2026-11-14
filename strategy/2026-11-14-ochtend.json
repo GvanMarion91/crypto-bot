@@ -1,0 +1,214 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-14T05:58:55Z",
+  "valid_until": "2026-11-14T20:58:55Z",
+  "status": "ok",
+  "market": {
+    "regime": "bear",
+    "confidence": 0.77,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 7,
+      "sideways": 1
+    },
+    "sentiment": -2,
+    "themes": [
+      "BTC rond $67K, laagste sinds augustus",
+      "Fear & Greed 13 (extreme angst)",
+      "~$845 mln liquidaties in 24u, vooral longs",
+      "BTC- en ETH-ETF-uitstroom houdt aan",
+      "89% kans Fed-verhoging december"
+    ],
+    "summary_nl": "Zeven van de acht coins blijven in een neerwaartse dagtrend, AVAX sideways met te lage confidence om te handelen. BTC zakte naar ongeveer $67.000 na opnieuw zware long-liquidaties; de Fear & Greed-index staat op 13. Aanhoudende ETF-uitstroom en hoge kans op een Fed-verhoging in december drukken het sentiment; dun weekendvolume vraagt extra voorzichtigheid."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "bear",
+      "trend_strength": 0.57,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.77,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 66933.98,
+        "ema10_d": 72506.20202128,
+        "ema30_d": 76773.80840193,
+        "ema30_slope_5d": -0.03089,
+        "adx14_d": 28.56,
+        "atr14_pct": 0.036,
+        "atr_ratio_vs_median": 1.36,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ETH_USD": {
+      "regime": "bear",
+      "trend_strength": 0.67,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.87,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; groeiende staking-exitqueue; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 1897.7,
+        "ema10_d": 2067.1660377,
+        "ema30_d": 2240.41566692,
+        "ema30_slope_5d": -0.04332,
+        "adx14_d": 33.59,
+        "atr14_pct": 0.05049,
+        "atr_ratio_vs_median": 1.31,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "SOL_USD": {
+      "regime": "bear",
+      "trend_strength": 0.94,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 75.75,
+        "ema10_d": 83.81232333,
+        "ema30_d": 93.52540518,
+        "ema30_slope_5d": -0.05366,
+        "adx14_d": 47.11,
+        "atr14_pct": 0.05763,
+        "atr_ratio_vs_median": 1.23,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.77,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.9947,
+        "ema10_d": 1.08537372,
+        "ema30_d": 1.20738762,
+        "ema30_slope_5d": -0.05545,
+        "adx14_d": 38.27,
+        "atr14_pct": 0.05394,
+        "atr_ratio_vs_median": 1.21,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "ADA_USD": {
+      "regime": "bear",
+      "trend_strength": 0.82,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.16463,
+        "ema10_d": 0.17584099,
+        "ema30_d": 0.19481249,
+        "ema30_slope_5d": -0.0466,
+        "adx14_d": 41.14,
+        "atr14_pct": 0.06588,
+        "atr_ratio_vs_median": 0.97,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "DOGE_USD": {
+      "regime": "bear",
+      "trend_strength": 1.0,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 0.063128,
+        "ema10_d": 0.06807978,
+        "ema30_d": 0.07445122,
+        "ema30_slope_5d": -0.04432,
+        "adx14_d": 49.9,
+        "atr14_pct": 0.05592,
+        "atr_ratio_vs_median": 1.09,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "LINK_USD": {
+      "regime": "bear",
+      "trend_strength": 0.69,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.89,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts; risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 9.673,
+        "ema10_d": 10.3146662,
+        "ema30_d": 11.20010868,
+        "ema30_slope_5d": -0.04056,
+        "adx14_d": 34.26,
+        "atr14_pct": 0.06461,
+        "atr_ratio_vs_median": 1.03,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0.38,
+      "volatility": "normal",
+      "risk_level": "high",
+      "confidence": 0.23,
+      "tradable": false,
+      "notes": "Sideways met te lage confidence (0,23); niet handelbaar, risico verhoogd door marktbrede liquidatiegolf (~$845 mln in 24u, 84% longs), extreme angst (F&G 13) en ETF-uitstroom.",
+      "indicators": {
+        "close": 8.103,
+        "ema10_d": 8.33874062,
+        "ema30_d": 8.83892728,
+        "ema30_slope_5d": -0.02351,
+        "adx14_d": 18.96,
+        "atr14_pct": 0.0675,
+        "atr_ratio_vs_median": 1.0,
+        "h4_trend": -1,
+        "last_candle": "2026-11-14T00:00:00Z",
+        "candles_daily": 50
+      }
+    }
+  },
+  "events": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-14T05:58:55Z",
+      "end_utc": "2026-11-14T11:58:55Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Voorzorg: lopende liquidatiegolf (vooral longs) bij extreme angst en dunne weekendliquiditeit"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.kucoin.com/news/flash/data-845m-in-liquidations-across-crypto-markets-in-24-hours",
+    "https://www.tokenpost.com/news/investing/57210",
+    "https://www.altcoinbuzz.io/bitcoin-price-below-69000-crypto-liquidations-november-2026",
+    "https://www.coingabbar.com/en/crypto-news-nov-14-bitcoin-akedo-price-fed-hike-odds-ppi-data",
+    "https://cryptoticker.io/en/ethereum-price-1958-dollars-staking-exit-queue-november-13-2026/"
+  ]
+}
