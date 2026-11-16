@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-15T17:53:06Z",
-  "valid_until": "2026-11-16T08:53:06Z",
+  "generated_at": "2026-11-16T05:59:43Z",
+  "valid_until": "2026-11-16T20:59:43Z",
   "status": "ok",
   "market": {
     "regime": "bear",
-    "confidence": 0.86,
+    "confidence": 0.87,
     "risk_level": "high",
     "breadth": {
       "bull": 0,
@@ -14,75 +14,54 @@
     },
     "sentiment": -2,
     "themes": [
-      "BTC kort ~$62K, laagste sinds juli",
-      "~$2 mld liquidaties in 24u",
+      "BTC ~$64,5K na weekenddip naar ~$62K",
+      "~$2 mld liquidaties op 15-11",
       "Fear & Greed 10 (extreme angst)",
-      "Spot-BTC-ETF's ~$1,07 mld uitstroom vorige week",
-      "Warsh-speech maandag, december-verhoging ingeprijsd"
+      "Spot-BTC-ETF's 7 dagen uitstroom (~$1,9 mld)",
+      "Warsh-speech vandaag 17:00 UTC"
     ],
-    "summary_nl": "Alle acht coins blijven in een neerwaartse dagtrend; geen regimewissels sinds vanochtend. BTC herstelde na de nachtelijke dip naar ~$62.000 tot rond $64.500, maar extreme angst, ETF-uitstroom en krimpend stablecoin-aanbod houden het risico hoog. Komende 24 uur: CME-heropening met open gap vannacht en een speech van Fed-voorzitter Warsh maandag om 17:00 UTC."
+    "summary_nl": "Alle acht coins blijven in een neerwaartse dagtrend; geen regimewissels t.o.v. gisteravond. BTC houdt zich rond $64.500 na de weekenddip naar ~$62.000, maar extreme angst, aanhoudende ETF-uitstroom en een krimpend stablecoin-aanbod houden het risico hoog. Vandaag om 17:00 UTC spreekt Fed-voorzitter Warsh in San Francisco."
   },
   "assets": {
     "BTC_USD": {
       "regime": "bear",
-      "trend_strength": 0.66,
+      "trend_strength": 0.67,
       "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.86,
+      "confidence": 0.87,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom).",
       "indicators": {
-        "close": 64484.23,
-        "ema10_d": 70630.35018234,
-        "ema30_d": 75812.77701818,
-        "ema30_slope_5d": -0.03873,
-        "adx14_d": 33.24,
-        "atr14_pct": 0.04259,
-        "atr_ratio_vs_median": 1.57,
+        "close": 64523.51,
+        "ema10_d": 69646.70777887,
+        "ema30_d": 75099.9937287,
+        "ema30_slope_5d": -0.04331,
+        "adx14_d": 33.37,
+        "atr14_pct": 0.04052,
+        "atr_ratio_vs_median": 1.5,
         "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     },
     "ETH_USD": {
       "regime": "bear",
-      "trend_strength": 0.76,
+      "trend_strength": 0.78,
       "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.95,
+      "confidence": 0.78,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom); 4h-bevestiging ontbrak (te weinig 4h-candles).",
       "indicators": {
-        "close": 1810.64,
-        "ema10_d": 2001.30925106,
-        "ema30_d": 2204.6350562,
-        "ema30_slope_5d": -0.05085,
-        "adx14_d": 37.95,
-        "atr14_pct": 0.05993,
-        "atr_ratio_vs_median": 1.54,
-        "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
-        "candles_daily": 50
-      }
-    },
-    "XRP_USD": {
-      "regime": "bear",
-      "trend_strength": 0.82,
-      "volatility": "high",
-      "risk_level": "high",
-      "confidence": 0.95,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom) en XRP op tweejaarsdieptepunt onder $1.",
-      "indicators": {
-        "close": 0.9478,
-        "ema10_d": 1.04835548,
-        "ema30_d": 1.18538796,
-        "ema30_slope_5d": -0.06172,
-        "adx14_d": 40.85,
-        "atr14_pct": 0.06506,
-        "atr_ratio_vs_median": 1.44,
-        "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "close": 1810.53,
+        "ema10_d": 1970.22505151,
+        "ema30_d": 2180.63969448,
+        "ema30_slope_5d": -0.05411,
+        "adx14_d": 38.88,
+        "atr14_pct": 0.05702,
+        "atr_ratio_vs_median": 1.46,
+        "h4_trend": null,
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     },
@@ -93,168 +72,155 @@
       "risk_level": "high",
       "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom).",
       "indicators": {
-        "close": 71.27,
-        "ema10_d": 80.7167202,
-        "ema30_d": 91.77985544,
-        "ema30_slope_5d": -0.06207,
-        "adx14_d": 52.6,
-        "atr14_pct": 0.06861,
-        "atr_ratio_vs_median": 1.46,
+        "close": 71.23,
+        "ema10_d": 79.21486418,
+        "ema30_d": 90.43235468,
+        "ema30_slope_5d": -0.06532,
+        "adx14_d": 52.65,
+        "atr14_pct": 0.0653,
+        "atr_ratio_vs_median": 1.4,
         "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "last_candle": "2026-11-16T00:00:00Z",
+        "candles_daily": 50
+      }
+    },
+    "XRP_USD": {
+      "regime": "bear",
+      "trend_strength": 0.82,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0.95,
+      "tradable": true,
+      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom); XRP onder $1, laagste niveau sinds nov 2024.",
+      "indicators": {
+        "close": 0.9515,
+        "ema10_d": 1.03461226,
+        "ema30_d": 1.17114077,
+        "ema30_slope_5d": -0.06209,
+        "adx14_d": 41.07,
+        "atr14_pct": 0.06192,
+        "atr_ratio_vs_median": 1.38,
+        "h4_trend": -1,
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     },
     "ADA_USD": {
       "regime": "bear",
-      "trend_strength": 0.86,
+      "trend_strength": 0.84,
       "volatility": "normal",
       "risk_level": "high",
       "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom).",
       "indicators": {
-        "close": 0.15276,
-        "ema10_d": 0.16913024,
-        "ema30_d": 0.19111518,
-        "ema30_slope_5d": -0.05582,
-        "adx14_d": 43.19,
-        "atr14_pct": 0.08097,
-        "atr_ratio_vs_median": 1.18,
+        "close": 0.15291,
+        "ema10_d": 0.1665839,
+        "ema30_d": 0.18853384,
+        "ema30_slope_5d": -0.05832,
+        "adx14_d": 42.22,
+        "atr14_pct": 0.07696,
+        "atr_ratio_vs_median": 1.12,
         "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     },
     "DOGE_USD": {
       "regime": "bear",
       "trend_strength": 1.0,
-      "volatility": "high",
+      "volatility": "normal",
       "risk_level": "high",
       "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom).",
       "indicators": {
-        "close": 0.058599,
-        "ema10_d": 0.06549498,
-        "ema30_d": 0.07308105,
-        "ema30_slope_5d": -0.05416,
-        "adx14_d": 52.19,
-        "atr14_pct": 0.06864,
-        "atr_ratio_vs_median": 1.32,
+        "close": 0.058618,
+        "ema10_d": 0.06443758,
+        "ema30_d": 0.07212061,
+        "ema30_slope_5d": -0.05707,
+        "adx14_d": 51.65,
+        "atr14_pct": 0.06582,
+        "atr_ratio_vs_median": 1.28,
         "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     },
     "LINK_USD": {
       "regime": "bear",
-      "trend_strength": 0.74,
+      "trend_strength": 0.94,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.94,
+      "confidence": 0.95,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom).",
       "indicators": {
-        "close": 9.21,
-        "ema10_d": 9.99643997,
-        "ema30_d": 11.01928538,
-        "ema30_slope_5d": -0.0482,
-        "adx14_d": 36.89,
-        "atr14_pct": 0.07582,
+        "close": 9.097,
+        "ema10_d": 9.84561222,
+        "ema30_d": 10.95084905,
+        "ema30_slope_5d": -0.05251,
+        "adx14_d": 47.12,
+        "atr14_pct": 0.07219,
         "atr_ratio_vs_median": 1.19,
         "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     },
     "AVAX_USD": {
       "regime": "bear",
-      "trend_strength": 0.46,
+      "trend_strength": 0.43,
       "volatility": "normal",
       "risk_level": "high",
-      "confidence": 0.66,
+      "confidence": 0.63,
       "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties, Fear & Greed 10, ETF-uitstroom).",
+      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (≈$2 mld liquidaties op 15-11, Fear & Greed 10, zeven dagen ETF-uitstroom).",
       "indicators": {
-        "close": 7.186,
-        "ema10_d": 7.98024434,
-        "ema30_d": 8.67351164,
-        "ema30_slope_5d": -0.03737,
-        "adx14_d": 23.04,
-        "atr14_pct": 0.08596,
-        "atr_ratio_vs_median": 1.26,
+        "close": 7.13,
+        "ema10_d": 7.84393749,
+        "ema30_d": 8.56959588,
+        "ema30_slope_5d": -0.04374,
+        "adx14_d": 21.67,
+        "atr14_pct": 0.0822,
+        "atr_ratio_vs_median": 1.2,
         "h4_trend": -1,
-        "last_candle": "2026-11-15T00:00:00Z",
+        "last_candle": "2026-11-16T00:00:00Z",
         "candles_daily": 50
       }
     }
   },
   "events": [
     {
-      "time_utc": "2026-11-15T23:00:00Z",
-      "title": "Heropening CME-cryptofutures na weekend; open gap ~5% t.o.v. vrijdagslot (~$68.200)",
-      "importance": "high",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/"
-    },
-    {
-      "time_utc": "2026-11-16T00:00:00Z",
-      "title": "Weekslot BTC-candle (week ~-13%)",
-      "importance": "medium",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/"
-    },
-    {
-      "time_utc": "2026-11-16T10:00:00Z",
-      "title": "Fed-gouverneur Barr spreekt over AI en financiële stabiliteit (Milaan)",
-      "importance": "low",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm"
-    },
-    {
       "time_utc": "2026-11-16T17:00:00Z",
-      "title": "Fed-voorzitter Warsh: openingsspeech Productivity and Jobs Task Force Conference (SF Fed)",
+      "title": "Fed-voorzitter Warsh: openingsspeech Productivity and Jobs-conferentie (SF Fed)",
       "importance": "high",
       "assets": [
         "ALL"
       ],
-      "source": "https://admiralmarkets.com/education/articles/fundamental-analysys/warsh-speech-preview-november-16-2026"
+      "source": "https://www.coingabbar.com/en/key-event-this-week-warsh-fed-calendar-bitcoin-watch"
     }
   ],
   "chaos_windows": [
-    {
-      "start_utc": "2026-11-15T22:00:00Z",
-      "end_utc": "2026-11-16T02:00:00Z",
-      "assets": [
-        "ALL"
-      ],
-      "reason": "Heropening CME-futures met open gap (~5%) plus weekslot; venster ruim i.v.m. onduidelijke heropeningstijd in bron"
-    },
     {
       "start_utc": "2026-11-16T16:00:00Z",
       "end_utc": "2026-11-16T19:00:00Z",
       "assets": [
         "ALL"
       ],
-      "reason": "Speech Fed-voorzitter Warsh (17:00 UTC) bij verwachte renteverhoging in december"
+      "reason": "Speech Fed-voorzitter Warsh (17:00 UTC) in een markt met extreme angst"
     }
   ],
   "sources": [
     "https://exchange.crypto.com",
-    "https://cryptoticker.io/en/bitcoin-price-overnight-low-weekly-close-november-15-2026/",
-    "https://thecryptodesk.substack.com/p/the-sunday-crypto-desk-15-november",
-    "https://crypto.news/why-bitcoin-price-fell-62000/",
-    "https://www.federalreserve.gov/newsevents/2026-november.htm",
-    "https://admiralmarkets.com/education/articles/fundamental-analysys/warsh-speech-preview-november-16-2026",
-    "https://www.coingabbar.com/en/key-event-this-week-warsh-fed-calendar-bitcoin-watch"
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-16-2026",
+    "https://cryptoticker.io/en/bitcoin-week-ahead-november-16-22-2026/",
+    "https://www.coingabbar.com/en/key-event-this-week-warsh-fed-calendar-bitcoin-watch",
+    "https://en.bloomingbit.io/feed/news/124482",
+    "https://whyitmoved.substack.com/p/daily-market-report-monday-16-november",
+    "https://thecryptobasic.com/2026/11/15/tcb-daily-edition-what-happened-in-crypto-on-november-15-2026/",
+    "https://mrnasdog.com/token-unlocks/november-2026"
   ]
 }
