@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-18T05:57:14Z",
+  "valid_until": "2026-11-18T20:57:14Z",
+  "status": "degraded",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 0,
+      "sideways": 8
+    },
+    "sentiment": 0,
+    "themes": [
+      "marktdata onvolledig (te weinig candles)",
+      "BTC rond $64–65K, onder druk",
+      "Spot-BTC-ETF's −$240M op 17 nov",
+      "Kapitaal verlaat crypto via stablecoins",
+      "FOMC-notulen 19:00 UTC"
+    ],
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector leverde slechts 3–6 dagcandles per coin, te weinig voor regime.py, dus alle coins staan op niet handelbaar. Nieuws blijft negatief: BTC worstelt rond $64–65K, spot-BTC-ETF's zagen $240M uitstroom en kapitaal verlaat crypto via stablecoins. Vanavond om 19:00 UTC verschijnen de FOMC-notulen."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "ETH_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "SOL_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "LINK_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-18T07:00:00Z",
+      "title": "VK: CPI oktober",
+      "importance": "low",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://en.bloomingbit.io/feed/news/124482"
+    },
+    {
+      "time_utc": "2026-11-18T10:00:00Z",
+      "title": "Eurozone: CPI oktober",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://en.bloomingbit.io/feed/news/124482"
+    },
+    {
+      "time_utc": "2026-11-18T19:00:00Z",
+      "title": "VS: notulen FOMC-vergadering (oktober)",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/fomc-minutes/"
+    }
+  ],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-18T18:00:00Z",
+      "end_utc": "2026-11-18T21:00:00Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "FOMC-notulen (19:00 UTC) in een markt die een Fed-verhoging in december inprijst"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://en.bloomingbit.io/feed/news/124482",
+    "https://www.financecalendar.com/fomc-minutes/",
+    "https://www.fool.com/coverage/stock-market-today/2026/11/17/crypto-market-today-nov-17-a-warning-sign-not-seen-since-2022-is-flashing-across-cryptocurrency-markets/",
+    "https://www.tokenpost.com/news/investing/60143"
+  ]
+}

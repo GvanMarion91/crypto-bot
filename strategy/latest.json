@@ -1,249 +1,145 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-17T05:59:20Z",
-  "valid_until": "2026-11-17T20:59:20Z",
-  "status": "ok",
+  "generated_at": "2026-11-18T05:57:14Z",
+  "valid_until": "2026-11-18T20:57:14Z",
+  "status": "degraded",
   "market": {
-    "regime": "bear",
-    "confidence": 0.91,
+    "regime": "sideways",
+    "confidence": 0,
     "risk_level": "high",
     "breadth": {
       "bull": 0,
-      "bear": 8,
-      "sideways": 0
+      "bear": 0,
+      "sideways": 8
     },
-    "sentiment": -2,
+    "sentiment": 0,
     "themes": [
-      "BTC ~$65K, stabiel na weekenddip naar ~$62K",
-      "Fear & Greed 12 (extreme angst)",
-      "Spot-BTC-ETF's aanhoudende uitstroom",
-      "Fed-verhoging 9 dec ~90% ingeprijsd na hete CPI",
-      "VS-retailsales en Waller vandaag"
+      "marktdata onvolledig (te weinig candles)",
+      "BTC rond $64–65K, onder druk",
+      "Spot-BTC-ETF's −$240M op 17 nov",
+      "Kapitaal verlaat crypto via stablecoins",
+      "FOMC-notulen 19:00 UTC"
     ],
-    "summary_nl": "Alle acht coins staan in een neerwaartse dagtrend; XRP is weer geclassificeerd (bear), verder geen regimewissels. BTC houdt zich rond $65.000 na de weekenddip, maar extreme angst, ETF-uitstroom en een vrijwel ingeprijsde Fed-verhoging in december houden het risico hoog. Vanmiddag VS-retailsales (13:30 UTC) en een speech van Fed-gouverneur Waller (14:10 UTC)."
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector leverde slechts 3–6 dagcandles per coin, te weinig voor regime.py, dus alle coins staan op niet handelbaar. Nieuws blijft negatief: BTC worstelt rond $64–65K, spot-BTC-ETF's zagen $240M uitstroom en kapitaal verlaat crypto via stablecoins. Vanavond om 19:00 UTC verschijnen de FOMC-notulen."
   },
   "assets": {
     "BTC_USD": {
-      "regime": "bear",
-      "trend_strength": 0.71,
+      "regime": "sideways",
+      "trend_strength": 0,
       "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.91,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd).",
-      "indicators": {
-        "close": 64789.97,
-        "ema10_d": 68810.90354164,
-        "ema30_d": 74460.15330032,
-        "ema30_slope_5d": -0.04599,
-        "adx14_d": 35.68,
-        "atr14_pct": 0.03934,
-        "atr_ratio_vs_median": 1.43,
-        "h4_trend": -1,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "ETH_USD": {
-      "regime": "bear",
-      "trend_strength": 0.83,
+      "regime": "sideways",
+      "trend_strength": 0,
       "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.95,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd).",
-      "indicators": {
-        "close": 1834.58,
-        "ema10_d": 1946.85904968,
-        "ema30_d": 2158.47006512,
-        "ema30_slope_5d": -0.05592,
-        "adx14_d": 41.63,
-        "atr14_pct": 0.05508,
-        "atr_ratio_vs_median": 1.41,
-        "h4_trend": -1,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "SOL_USD": {
-      "regime": "bear",
-      "trend_strength": 1.0,
+      "regime": "sideways",
+      "trend_strength": 0,
       "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.95,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd).",
-      "indicators": {
-        "close": 72.68,
-        "ema10_d": 78.06985941,
-        "ema30_d": 89.31416416,
-        "ema30_slope_5d": -0.06761,
-        "adx14_d": 53.44,
-        "atr14_pct": 0.06255,
-        "atr_ratio_vs_median": 1.34,
-        "h4_trend": -1,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "XRP_USD": {
-      "regime": "bear",
-      "trend_strength": 0.91,
+      "regime": "sideways",
+      "trend_strength": 0,
       "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.95,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts met hoge volatiliteit; risico high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd).",
-      "indicators": {
-        "close": 0.9629,
-        "ema10_d": 1.02204944,
-        "ema30_d": 1.15768523,
-        "ema30_slope_5d": -0.06256,
-        "adx14_d": 45.39,
-        "atr14_pct": 0.05872,
-        "atr_ratio_vs_median": 1.34,
-        "h4_trend": -1,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "ADA_USD": {
-      "regime": "bear",
-      "trend_strength": 0.86,
-      "volatility": "normal",
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.8,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd); geen 4h-bevestiging (te weinig 4h-candles).",
-      "indicators": {
-        "close": 0.15424,
-        "ema10_d": 0.16436175,
-        "ema30_d": 0.18622991,
-        "ema30_slope_5d": -0.06131,
-        "adx14_d": 43.1,
-        "atr14_pct": 0.07309,
-        "atr_ratio_vs_median": 1.06,
-        "h4_trend": null,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "DOGE_USD": {
-      "regime": "bear",
-      "trend_strength": 1.0,
-      "volatility": "normal",
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.95,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd).",
-      "indicators": {
-        "close": 0.059071,
-        "ema10_d": 0.063502,
-        "ema30_d": 0.07129339,
-        "ema30_slope_5d": -0.05989,
-        "adx14_d": 53.07,
-        "atr14_pct": 0.06232,
-        "atr_ratio_vs_median": 1.22,
-        "h4_trend": -1,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "LINK_USD": {
-      "regime": "bear",
-      "trend_strength": 1.0,
-      "volatility": "normal",
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.95,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd).",
-      "indicators": {
-        "close": 9.191,
-        "ema10_d": 9.73220775,
-        "ema30_d": 10.80960343,
-        "ema30_slope_5d": -0.05378,
-        "adx14_d": 50.67,
-        "atr14_pct": 0.06826,
-        "atr_ratio_vs_median": 1.14,
-        "h4_trend": -1,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "AVAX_USD": {
-      "regime": "bear",
-      "trend_strength": 0.64,
-      "volatility": "normal",
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
       "risk_level": "high",
-      "confidence": 0.64,
-      "tradable": true,
-      "notes": "Dagtrend neerwaarts; risico verhoogd naar high door marktbrede stress (Fear & Greed 12, ETF-uitstroom, Fed-verhoging dec. ingeprijsd); geen 4h-bevestiging (te weinig 4h-candles).",
-      "indicators": {
-        "close": 7.17,
-        "ema10_d": 7.71906113,
-        "ema30_d": 8.50908235,
-        "ema30_slope_5d": -0.05088,
-        "adx14_d": 31.78,
-        "atr14_pct": 0.07769,
-        "atr_ratio_vs_median": 1.19,
-        "h4_trend": null,
-        "last_candle": "2026-11-17T00:00:00Z",
-        "candles_daily": 50
-      }
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 3–6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     }
   },
   "events": [
     {
-      "time_utc": "2026-11-17T13:30:00Z",
-      "title": "VS: retailsales oktober",
-      "importance": "high",
+      "time_utc": "2026-11-18T07:00:00Z",
+      "title": "VK: CPI oktober",
+      "importance": "low",
       "assets": [
         "ALL"
       ],
-      "source": "https://cryptoticker.io/en/bitcoin-price-waller-rate-hike-november-17-2026/"
+      "source": "https://en.bloomingbit.io/feed/news/124482"
     },
     {
-      "time_utc": "2026-11-17T14:10:00Z",
-      "title": "Fed-gouverneur Waller: speech 'Payments', Clearing House-conferentie New York",
-      "importance": "high",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.federalreserve.gov/newsevents/2026-November.htm"
-    },
-    {
-      "time_utc": "2026-11-17T14:15:00Z",
-      "title": "VS: industriële productie en capaciteitsbenutting (G.17)",
+      "time_utc": "2026-11-18T10:00:00Z",
+      "title": "Eurozone: CPI oktober",
       "importance": "medium",
       "assets": [
         "ALL"
       ],
-      "source": "https://www.federalreserve.gov/newsevents/2026-November.htm"
+      "source": "https://en.bloomingbit.io/feed/news/124482"
+    },
+    {
+      "time_utc": "2026-11-18T19:00:00Z",
+      "title": "VS: notulen FOMC-vergadering (oktober)",
+      "importance": "high",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://www.financecalendar.com/fomc-minutes/"
     }
   ],
   "chaos_windows": [
     {
-      "start_utc": "2026-11-17T12:30:00Z",
-      "end_utc": "2026-11-17T15:30:00Z",
+      "start_utc": "2026-11-18T18:00:00Z",
+      "end_utc": "2026-11-18T21:00:00Z",
       "assets": [
         "ALL"
       ],
-      "reason": "VS-retailsales oktober (13:30 UTC) in een markt met extreme angst en ingeprijsde Fed-verhoging"
-    },
-    {
-      "start_utc": "2026-11-17T13:10:00Z",
-      "end_utc": "2026-11-17T16:10:00Z",
-      "assets": [
-        "ALL"
-      ],
-      "reason": "Speech Fed-gouverneur Waller (14:10 UTC) en VS-industriecijfers (14:15 UTC)"
+      "reason": "FOMC-notulen (19:00 UTC) in een markt die een Fed-verhoging in december inprijst"
     }
   ],
   "sources": [
     "https://exchange.crypto.com",
-    "https://cryptoticker.io/en/bitcoin-price-waller-rate-hike-november-17-2026/",
-    "https://www.federalreserve.gov/newsevents/2026-November.htm",
-    "https://www.capitalstreetfx.com/market-analysis/daily-crypto-report-16-nov-2026/",
-    "https://thecryptobasic.com/2026/11/17/crypto-price-analysis-btc-xrp-uni-hype-and-vvv-nov-17-bitcoin-holds-near-65000-xrp-tests-lower-band-support-as-hyperliquid-extends-its-rebound/"
+    "https://en.bloomingbit.io/feed/news/124482",
+    "https://www.financecalendar.com/fomc-minutes/",
+    "https://www.fool.com/coverage/stock-market-today/2026/11/17/crypto-market-today-nov-17-a-warning-sign-not-seen-since-2022-is-flashing-across-cryptocurrency-markets/",
+    "https://www.tokenpost.com/news/investing/60143"
   ]
 }
