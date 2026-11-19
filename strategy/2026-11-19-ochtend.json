@@ -1,0 +1,118 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-19T05:51:44Z",
+  "valid_until": "2026-11-19T20:51:44Z",
+  "status": "degraded",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 0,
+      "sideways": 8
+    },
+    "sentiment": 0,
+    "themes": [
+      "marktdata onvolledig (te weinig candles)",
+      "Hawkish FOMC-notulen: Fed-verhoging dec. ingeprijsd",
+      "BTC rond $63K, Fear & Greed 10",
+      "Spot-BTC-ETF's ~$2,6 mrd uitstroom in nov.",
+      "Dollar op hoogste punt in 19 maanden"
+    ],
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector leverde opnieuw slechts 4–7 dagcandles per coin, te weinig voor regime.py, dus alle coins staan op niet handelbaar. De FOMC-notulen waren hawkish (markt prijst ~91% kans op een renteverhoging in december) en BTC zakte naar circa $63K bij extreme angst. Vandaag om 13:30 UTC volgen de Amerikaanse werkloosheidsaanvragen."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "ETH_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "SOL_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "LINK_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 4–7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    }
+  },
+  "events": [
+    {
+      "time_utc": "2026-11-19T13:30:00Z",
+      "title": "VS: wekelijkse eerste werkloosheidsaanvragen",
+      "importance": "medium",
+      "assets": [
+        "ALL"
+      ],
+      "source": "https://admiralmarkets.com/education/articles/fundamental-analysys/initial-jobless-claims-preview-19-november-2026"
+    }
+  ],
+  "chaos_windows": [],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-19-2026",
+    "https://admiralmarkets.com/education/articles/fundamental-analysys/initial-jobless-claims-preview-19-november-2026",
+    "https://www.fxstreet.com/cryptocurrencies/news/bitcoin-crypto-market-remain-subdued-as-hawkish-fed-minutes-reinforce-december-rate-hike-202611190231",
+    "https://www.coingabbar.com/en/crypto-news-nov-19-bitcoin-gold-silver-dips-fed-meeting-minutes"
+  ]
+}
