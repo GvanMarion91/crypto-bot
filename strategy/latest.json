@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-20T05:52:38Z",
-  "valid_until": "2026-11-20T20:52:38Z",
+  "generated_at": "2026-11-21T05:53:17Z",
+  "valid_until": "2026-11-21T20:53:17Z",
   "status": "degraded",
   "market": {
     "regime": "sideways",
@@ -14,13 +14,13 @@
     },
     "sentiment": 0,
     "themes": [
-      "marktdata onvolledig (5–8 dagcandles)",
-      "BTC op viermaandslaagte rond $61,5K",
-      "Spot-BTC-ETF's $582M uitstroom op 19 nov.",
-      "Fear & Greed 12 (extreme angst)",
-      "Markt prijst Fed-verhoging in december"
+      "marktdata onvolledig (6–9 dagcandles)",
+      "BTC naar ~$55,5K, laagste sinds sept. 2024",
+      "~$2,4B liquidaties in 24 uur (vooral longs)",
+      "Binance-hack genoemd als stressfactor",
+      "ETF-uitstroom"
     ],
-    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector leverde per coin maar 5–8 dagcandles, te weinig voor regime.py, dus alle coins staan op niet handelbaar. BTC zakte naar een viermaandslaagte rond $61,5K bij spot-ETF-uitstroom ($582M op 19 nov.), ~$700M liquidaties en extreme angst. Vandaag spreken Fed-gouverneurs Waller (13:25 UTC) en Cook (17:15 UTC)."
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector leverde per coin maar 6–9 dagcandles, te weinig voor regime.py, dus alle coins staan op niet handelbaar. BTC zakte zaterdagochtend naar ~$55,5K (laagste sinds september 2024) bij ~$2,4B aan liquidaties, ETF-uitstroom en een recente Binance-hack. Geen grote macro-events in de komende 24 uur gevonden (weekend)."
   },
   "assets": {
     "BTC_USD": {
@@ -30,7 +30,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 5 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "ETH_USD": {
       "regime": "sideways",
@@ -39,7 +39,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 8 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 9 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "SOL_USD": {
       "regime": "sideways",
@@ -48,7 +48,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 8 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "XRP_USD": {
       "regime": "sideways",
@@ -57,7 +57,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 5 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 9 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "ADA_USD": {
       "regime": "sideways",
@@ -66,7 +66,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 5 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "DOGE_USD": {
       "regime": "sideways",
@@ -75,7 +75,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 8 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 9 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "LINK_USD": {
       "regime": "sideways",
@@ -84,7 +84,7 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 8 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 9 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     },
     "AVAX_USD": {
       "regime": "sideways",
@@ -93,35 +93,24 @@
       "risk_level": "high",
       "confidence": 0,
       "tradable": false,
-      "notes": "Crypto.com-connector gaf maar 5 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+      "notes": "Crypto.com-connector gaf maar 6 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
     }
   },
-  "events": [
+  "events": [],
+  "chaos_windows": [
     {
-      "time_utc": "2026-11-20T13:25:00Z",
-      "title": "Fed-gouverneur Waller: welkomstwoord College Fed Challenge",
-      "importance": "low",
+      "start_utc": "2026-11-21T05:53:17Z",
+      "end_utc": "2026-11-21T11:53:17Z",
       "assets": [
         "ALL"
       ],
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm"
-    },
-    {
-      "time_utc": "2026-11-20T17:15:00Z",
-      "title": "Fed-gouverneur Cook: speech 'The U.S. Economy in Global Context'",
-      "importance": "medium",
-      "assets": [
-        "ALL"
-      ],
-      "source": "https://www.federalreserve.gov/newsevents/2026-november.htm"
+      "reason": "Lopende sell-off met ~$2,4B liquidaties en BTC op laagste niveau sinds sept. 2024"
     }
   ],
-  "chaos_windows": [],
   "sources": [
     "https://exchange.crypto.com",
-    "https://crypto.news/bitcoin-price-four-month-low-anthropic-ipo-outflows/",
-    "https://www.coingabbar.com/en/crypto-news-today-cftc-rules-japan-risk-anthropic-bitcoin-price",
-    "https://www.federalreserve.gov/newsevents/2026-november.htm",
-    "https://www.newsquawk.com/headlines/newsquawk-weekly-economic-release-16th---20th-november-2026"
+    "https://cryptopotato.com/bitcoin-price-plunges-to-55-5k-for-the-first-time-since-september-2024/",
+    "https://www.federalreserve.gov/newsevents/2026-November.htm",
+    "https://tech-insider.org/one-binance-hack-accounted-for-73-of-all-crypto-hacking-losses-in-2026/"
   ]
 }
