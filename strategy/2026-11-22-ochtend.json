@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-11-22T05:52:48Z",
+  "valid_until": "2026-11-22T20:52:48Z",
+  "status": "degraded",
+  "market": {
+    "regime": "sideways",
+    "confidence": 0,
+    "risk_level": "high",
+    "breadth": {
+      "bull": 0,
+      "bear": 0,
+      "sideways": 8
+    },
+    "sentiment": 0,
+    "themes": [
+      "marktdata onvolledig (7–10 dagcandles)",
+      "BTC herstelde naar ~$60K na dip naar ~$55K",
+      "~$2,7B liquidaties in 24 uur",
+      "ETF-uitstroom (>$1,25B di–vr)",
+      "zorg over Fed-renteverhoging december"
+    ],
+    "summary_nl": "Gedegradeerde briefing: de Crypto.com-connector leverde per coin maar 7–10 dagcandles, te weinig voor regime.py, dus alle coins staan op niet handelbaar. BTC dook zaterdag naar ~$55K (laagste sinds sept. 2024) bij ~$2,7B liquidaties en ETF-uitstroom, en herstelde daarna boven $60K. Geen grote macro-events in de komende 24 uur gevonden (weekend)."
+  },
+  "assets": {
+    "BTC_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "ETH_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "SOL_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "XRP_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "ADA_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "DOGE_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "LINK_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    },
+    "AVAX_USD": {
+      "regime": "sideways",
+      "trend_strength": 0,
+      "volatility": "high",
+      "risk_level": "high",
+      "confidence": 0,
+      "tradable": false,
+      "notes": "Crypto.com-connector gaf maar 7 dagcandles (min. 30 nodig); regime niet berekend, niet handelen."
+    }
+  },
+  "events": [],
+  "chaos_windows": [
+    {
+      "start_utc": "2026-11-22T05:52:48Z",
+      "end_utc": "2026-11-22T11:52:48Z",
+      "assets": [
+        "ALL"
+      ],
+      "reason": "Nasleep liquidatiegolf (~$2,7B) en hoge volatiliteit na BTC-dip naar ~$55K"
+    }
+  ],
+  "sources": [
+    "https://exchange.crypto.com",
+    "https://news.bitcoin.com/market-updates/bitcoin-price-rebounds-60k-crash-near-55k-billions-liquidations/",
+    "https://www.federalreserve.gov/newsevents/2026-november.htm"
+  ]
+}
