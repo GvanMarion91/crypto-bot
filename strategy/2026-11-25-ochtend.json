@@ -1,0 +1,160 @@
+{
+ "schema_version": "1.0",
+ "generated_at": "2026-11-25T05:51:53Z",
+ "valid_until": "2026-11-25T20:51:53Z",
+ "status": "degraded",
+ "market": {
+  "regime": "sideways",
+  "confidence": 0,
+  "risk_level": "high",
+  "breadth": {
+   "bull": 0,
+   "bear": 0,
+   "sideways": 8
+  },
+  "sentiment": 0,
+  "themes": [
+   "marktdata onvolledig (10–13 dagcandles)",
+   "BTC onder $60K",
+   "ETF-uitstroom en Fed-zorgen",
+   "liquidaties",
+   "PCE/GDP 13:30 UTC"
+  ],
+  "summary_nl": "Gedegradeerd: Crypto.com gaf per coin maar 10–13 dagcandles, te weinig voor regime.py; alle coins niet handelbaar. BTC zakte terug onder $60K nu de aandelenrally wegebt, met aanhoudende ETF-uitstroom en Fed-zorgen. Vandaag 13:30 UTC VS-GDP, PCE (oktober) en durable goods; morgen Thanksgiving."
+ },
+ "assets": {
+  "BTC_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 10
+   }
+  },
+  "ETH_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  },
+  "SOL_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  },
+  "XRP_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 10
+   }
+  },
+  "ADA_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  },
+  "DOGE_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 10
+   }
+  },
+  "LINK_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 10 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 10
+   }
+  },
+  "AVAX_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  }
+ },
+ "events": [
+  {
+   "time_utc": "2026-11-25T13:30:00Z",
+   "title": "VS: GDP, PCE-inflatie (oktober) en durable goods (8:30 ET)",
+   "importance": "high",
+   "assets": [
+    "ALL"
+   ],
+   "source": "https://mlq.ai/news/what-to-watch-wednesday-nov-25-gdp-october-pce-and-durable-goods-at-830-am-deere-and-li-auto-results-before-thanksgiving/"
+  }
+ ],
+ "chaos_windows": [
+  {
+   "start_utc": "2026-11-25T12:30:00Z",
+   "end_utc": "2026-11-25T15:30:00Z",
+   "assets": [
+    "ALL"
+   ],
+   "reason": "VS GDP/PCE/durable goods om 13:30 UTC"
+  }
+ ],
+ "sources": [
+  "https://exchange.crypto.com",
+  "https://mlq.ai/news/what-to-watch-wednesday-nov-25-gdp-october-pce-and-durable-goods-at-830-am-deere-and-li-auto-results-before-thanksgiving/",
+  "https://www.marketalleys.com/post/bea-gdp-and-pce-headline-the-us-calendar-on-wednesday-2026-11-25",
+  "https://www.coindesk.com/tech/2026/11/24/live-updates-bitcoin-pulls-back-to-usd60-000-as-stock-rally-fails-to-budge-crypto",
+  "https://www.marketalleys.com/post/bitcoin-at-59-759-00-fell-2-34-over-24-hours-2026-11-25",
+  "https://www.archyde.com/bitcoin-falls-below-us60000-as-tech-sell-off-fed-fears-drive-us1-79-billion-etf-outflows/"
+ ]
+}
