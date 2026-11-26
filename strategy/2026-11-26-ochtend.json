@@ -1,0 +1,141 @@
+{
+ "schema_version": "1.0",
+ "generated_at": "2026-11-26T05:54:25Z",
+ "valid_until": "2026-11-26T20:54:25Z",
+ "status": "degraded",
+ "market": {
+  "regime": "sideways",
+  "confidence": 0,
+  "risk_level": "high",
+  "breadth": {
+   "bull": 0,
+   "bear": 0,
+   "sideways": 8
+  },
+  "sentiment": 0,
+  "themes": [
+   "marktdata onvolledig (11–14 dagcandles)",
+   "extreme angst (Fear & Greed ~11)",
+   "ETF-uitstroom november ~$4,9 mrd",
+   "VS-tarieven en Fed-renteverhoging",
+   "Thanksgiving: VS-beurzen dicht"
+  ],
+  "summary_nl": "Gedegradeerd: Crypto.com gaf per coin maar 11–14 dagcandles, te weinig voor regime.py; alle coins niet handelbaar. BTC herstelde na een dip richting $57.500 weer tot rond $60.000, bij extreme angst, zes dagen ETF-uitstroom en tariefzorgen. Vandaag Thanksgiving: VS-beurzen en spot-ETF's dicht, dunne liquiditeit."
+ },
+ "assets": {
+  "BTC_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 11 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 11
+   }
+  },
+  "ETH_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 14
+   }
+  },
+  "SOL_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 14
+   }
+  },
+  "XRP_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 11 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 11
+   }
+  },
+  "ADA_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 14
+   }
+  },
+  "DOGE_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 11 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 11
+   }
+  },
+  "LINK_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 14
+   }
+  },
+  "AVAX_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 14
+   }
+  }
+ },
+ "events": [],
+ "chaos_windows": [],
+ "sources": [
+  "https://exchange.crypto.com",
+  "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
+  "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
+  "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
+  "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead",
+  "https://cryptoticker.io/en/crypto-news-nasdaq-futures-tariffs-vix-30"
+ ]
+}
