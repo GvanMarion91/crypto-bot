@@ -1,7 +1,7 @@
 {
  "schema_version": "1.0",
- "generated_at": "2026-11-26T05:54:25Z",
- "valid_until": "2026-11-26T20:54:25Z",
+ "generated_at": "2026-11-27T05:53:10Z",
+ "valid_until": "2026-11-27T20:53:10Z",
  "status": "degraded",
  "market": {
   "regime": "sideways",
@@ -14,13 +14,13 @@
   },
   "sentiment": 0,
   "themes": [
-   "marktdata onvolledig (11–14 dagcandles)",
-   "extreme angst (Fear & Greed ~11)",
-   "ETF-uitstroom november ~$4,9 mrd",
-   "VS-tarieven en Fed-renteverhoging",
-   "Thanksgiving: VS-beurzen dicht"
+   "marktdata onvolledig (12–15 dagcandles)",
+   "BTC-optie-expiratie Deribit ~$6,8 mrd",
+   "ETF-uitstroom november ~$5,4 mrd",
+   "Auros (market maker) bouwt af",
+   "VS-beurzen korte sessie (Black Friday)"
   ],
-  "summary_nl": "Gedegradeerd: Crypto.com gaf per coin maar 11–14 dagcandles, te weinig voor regime.py; alle coins niet handelbaar. BTC herstelde na een dip richting $57.500 weer tot rond $60.000, bij extreme angst, zes dagen ETF-uitstroom en tariefzorgen. Vandaag Thanksgiving: VS-beurzen en spot-ETF's dicht, dunne liquiditeit."
+  "summary_nl": "Gedegradeerd: Crypto.com gaf per coin maar 12–15 dagcandles, te weinig voor regime.py; alle coins niet handelbaar. BTC herstelde naar rond $61.700 na een week met een dieptepunt rond $55.000 en aanhoudende ETF-uitstroom. Vandaag om 08:00 UTC een grote BTC-optie-expiratie op Deribit en een verkorte VS-beurssessie tot 18:00 UTC."
  },
  "assets": {
   "BTC_USD": {
@@ -30,10 +30,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 11 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 12 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 11
+    "candles_daily": 12
    }
   },
   "ETH_USD": {
@@ -43,10 +43,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 15 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 14
+    "candles_daily": 15
    }
   },
   "SOL_USD": {
@@ -56,10 +56,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 15 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 14
+    "candles_daily": 15
    }
   },
   "XRP_USD": {
@@ -69,10 +69,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 11 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 12 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 11
+    "candles_daily": 12
    }
   },
   "ADA_USD": {
@@ -82,10 +82,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 12 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 14
+    "candles_daily": 12
    }
   },
   "DOGE_USD": {
@@ -95,10 +95,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 11 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 12 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 11
+    "candles_daily": 12
    }
   },
   "LINK_USD": {
@@ -108,10 +108,10 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 15 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 14
+    "candles_daily": 15
    }
   },
   "AVAX_USD": {
@@ -121,21 +121,47 @@
    "risk_level": "high",
    "confidence": 0,
    "tradable": false,
-   "notes": "Crypto.com-connector gaf maar 14 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "notes": "Crypto.com-connector gaf maar 12 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
    "indicators": {
     "status": "insufficient_data",
-    "candles_daily": 14
+    "candles_daily": 12
    }
   }
  },
- "events": [],
- "chaos_windows": [],
+ "events": [
+  {
+   "time_utc": "2026-11-27T08:00:00Z",
+   "title": "Deribit BTC-optie-expiratie, ca. $6,8 mrd (≈25% van open interest)",
+   "importance": "high",
+   "assets": [
+    "BTC_USD"
+   ],
+   "source": "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/"
+  },
+  {
+   "time_utc": "2026-11-27T18:00:00Z",
+   "title": "VS-aandelenmarkt en spot-BTC-ETF's sluiten vroeg (13:00 ET, dag na Thanksgiving)",
+   "importance": "medium",
+   "assets": [
+    "ALL"
+   ],
+   "source": "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead"
+  }
+ ],
+ "chaos_windows": [
+  {
+   "start_utc": "2026-11-27T07:00:00Z",
+   "end_utc": "2026-11-27T10:00:00Z",
+   "assets": [
+    "BTC_USD"
+   ],
+   "reason": "Deribit BTC-optie-expiratie ~$6,8 mrd om 08:00 UTC"
+  }
+ ],
  "sources": [
   "https://exchange.crypto.com",
-  "https://www.kucoin.com/news/articles/crypto-daily-market-report-november-26-2026",
-  "https://www.coindesk.com/markets/2026/11/25/ether-defi-fall-twice-as-hard-as-bitcoin-as-equities-selloff-resumes",
-  "https://www.coindesk.com/business/2026/11/25/live-updates-bitcoin-slips-back-under-usd60-000-as-hype-leads-altcoins-lower",
-  "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead",
-  "https://cryptoticker.io/en/crypto-news-nasdaq-futures-tariffs-vix-30"
+  "https://crypto.news/bitcoin-price-rebounds-68b-options-expiry-november-27/",
+  "https://www.coindesk.com/markets/2026/11/26/major-crypto-trading-firm-auros-is-winding-down-operations-sources",
+  "https://www.coindesk.com/markets/2026/11/23/u-s-inflation-thanksgiving-trading-crypto-week-ahead"
  ]
 }
