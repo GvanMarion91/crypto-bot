@@ -1,0 +1,138 @@
+{
+ "schema_version": "1.0",
+ "generated_at": "2026-11-28T05:52:47Z",
+ "valid_until": "2026-11-28T20:52:47Z",
+ "status": "degraded",
+ "market": {
+  "regime": "sideways",
+  "confidence": 0,
+  "risk_level": "high",
+  "breadth": {
+   "bull": 0,
+   "bear": 0,
+   "sideways": 8
+  },
+  "sentiment": 0,
+  "themes": [
+   "marktdata onvolledig (13–16 dagcandles)",
+   "record ETF-uitstroom november",
+   "stablecoin-aanbod krimpt",
+   "Fear & Greed extreme angst",
+   "FOMC-blackout vóór 8–9 dec"
+  ],
+  "summary_nl": "Gedegradeerd: Crypto.com gaf per coin maar 13–16 dagcandles, te weinig voor regime.py; alle coins niet handelbaar. BTC zakte vrijdagavond weer onder $60.000 bij aanhoudende ETF-uitstroom (record ~$5,4 mrd in november) en extreme angst. Geen grote geplande events in de komende 24 uur gevonden; geen hacks of depegs gemeld."
+ },
+ "assets": {
+  "BTC_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 16 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 16
+   }
+  },
+  "ETH_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 16 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 16
+   }
+  },
+  "SOL_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 16 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 16
+   }
+  },
+  "XRP_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  },
+  "ADA_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  },
+  "DOGE_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  },
+  "LINK_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 16 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 16
+   }
+  },
+  "AVAX_USD": {
+   "regime": "sideways",
+   "trend_strength": 0,
+   "volatility": "high",
+   "risk_level": "high",
+   "confidence": 0,
+   "tradable": false,
+   "notes": "Crypto.com-connector gaf maar 13 dagcandles (min. 30 nodig); regime niet berekend, niet handelen.",
+   "indicators": {
+    "status": "insufficient_data",
+    "candles_daily": 13
+   }
+  }
+ },
+ "events": [],
+ "chaos_windows": [],
+ "sources": [
+  "https://exchange.crypto.com",
+  "https://crypto.news/bitcoin-price-slips-below-60k-traders-watch-55k",
+  "https://coincu.com/market-macro-us-session-roundup-2026-11-26"
+ ]
+}
